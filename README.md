@@ -5,3 +5,8 @@
 
 exe依赖：本路径下 dbc.ico
 
+
+History：
+
+2022.8.18 first release
+
