@@ -1,0 +1,24 @@
+xlMtrixColData = {
+    # row
+    'dataStartRow': 2,
+
+    # col
+    'network': 1,
+    'sendNode': 2,
+    'frameName': 3,
+    'signalName': 4,
+    'comment': 5,
+    'id': 6,
+    'circle': 7,
+    'order': 9,
+    'signal_start_bit': 10,
+    'signal_length': 11,
+    'factor': 12,
+    'offset': 13,
+    'physicalMin': 14,
+    'physicalMax': 15,
+    'signalType': 16,
+    'unit': 17,
+    'initVal': 18,
+    'recvNode': 21,
+}

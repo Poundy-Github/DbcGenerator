@@ -1,0 +1,3002 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: FrCamera ADAS
+
+
+BO_ 257 HAD_Radar_1: 8 ADAS
+ SG_ ADCM_SyncMsgType : 7|8@0+ (1,0) [0|255] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Checksum : 15|8@0+ (1,0) [0|255] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Fup_Checksum : 15|8@0+ (1,0) [0|255] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_SequenceCounter : 19|4@0+ (1,0) [0|15] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Fup_SequenceCounter : 19|4@0+ (1,0) [0|15] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsgTimeDomain : 23|4@0+ (1,0) [0|15] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsgTimeDomain : 23|4@0+ (1,0) [0|15] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_UserByte0 : 31|8@0+ (1,0) [0|255] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsgOVS : 25|2@0+ (1,0) [0|3] "s"  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Fup_SGM : 26|1@0+ (1,0) [0|1] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Fup_Reserved : 31|5@0+ (1,0) [0|1] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsgSyncTime : 39|32@0+ (1,0) [0|4294967295] ""  FrCamera,ADAS
+ SG_ ADCM_SyncMsg_Fup_SyncTime : 39|32@0+ (1,0) [0|4294967295] ""  FrCamera,ADAS
+
+BO_ 1152 FCM_FS_1: 64 FrCamera
+ SG_ FC_lateral1 : 0|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal1 : 10|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral2 : 21|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal2 : 31|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral3 : 42|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal3 : 52|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral4 : 63|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal4 : 73|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral5 : 84|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal5 : 94|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral6 : 105|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal6 : 115|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral7 : 126|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal7 : 136|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral8 : 147|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal8 : 157|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral9 : 168|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal9 : 178|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral10 : 189|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal10 : 199|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral11 : 210|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal11 : 220|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral12 : 231|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal12 : 241|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral13 : 252|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal13 : 262|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral14 : 273|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal14 : 283|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral15 : 294|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal15 : 304|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral16 : 315|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal16 : 325|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral17 : 336|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal17 : 346|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral18 : 357|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal18 : 367|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral19 : 378|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal19 : 388|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral20 : 399|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal20 : 409|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral21 : 420|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal21 : 430|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_RollingCounter_480 : 441|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_480 : 448|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1153 FCM_FS_2: 64 FrCamera
+ SG_ FC_lateral22 : 0|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal22 : 10|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral23 : 21|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal23 : 31|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral24 : 42|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal24 : 52|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral25 : 63|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal25 : 73|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral26 : 84|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal26 : 94|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral27 : 105|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal27 : 115|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral28 : 126|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal28 : 136|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral29 : 147|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal29 : 157|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral30 : 168|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal30 : 178|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral31 : 189|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal31 : 199|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral32 : 210|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal32 : 220|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral33 : 231|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal33 : 241|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral34 : 252|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal34 : 262|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral35 : 273|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal35 : 283|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral36 : 294|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal36 : 304|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral37 : 315|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal37 : 325|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral38 : 336|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal38 : 346|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral39 : 357|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal39 : 367|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral40 : 378|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal40 : 388|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral41 : 399|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal41 : 409|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral42 : 420|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal42 : 430|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_RollingCounter_481 : 441|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_481 : 448|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1154 FCM_FS_3: 64 FrCamera
+ SG_ FC_lateral43 : 0|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal43 : 10|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral44 : 21|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal44 : 31|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral45 : 42|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal45 : 52|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral46 : 63|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal46 : 73|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral47 : 84|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal47 : 94|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral48 : 105|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal48 : 115|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral49 : 126|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal49 : 136|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral50 : 147|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal50 : 157|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral51 : 168|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal51 : 178|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral52 : 189|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal52 : 199|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral53 : 210|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal53 : 220|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral54 : 231|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal54 : 241|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral55 : 252|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal55 : 262|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral56 : 273|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal56 : 283|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral57 : 294|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal57 : 304|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral58 : 315|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal58 : 325|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral59 : 336|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal59 : 346|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral60 : 357|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal60 : 367|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral61 : 378|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal61 : 388|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral62 : 399|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal62 : 409|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral63 : 420|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal63 : 430|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_lateral64 : 441|10@1+ (0.1,-51.2) [-51.2|51.1] "m"  ADAS
+ SG_ FC_longitudinal64 : 451|11@1+ (0.1,-102.4) [-102.4|102.3] "m"  ADAS
+ SG_ FC_RollingCounter_482 : 464|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_482 : 472|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1155 FCM_FS_4: 64 FrCamera
+ SG_ FC_Type_Point1 : 0|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point2 : 3|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point3 : 8|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point4 : 11|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point5 : 16|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point6 : 19|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point7 : 24|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point8 : 27|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point9 : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point10 : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point11 : 40|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point12 : 43|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point13 : 48|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point14 : 51|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point15 : 56|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point16 : 59|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point17 : 64|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point18 : 67|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point19 : 72|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point20 : 75|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point21 : 80|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point22 : 83|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point23 : 88|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point24 : 91|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point25 : 96|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point26 : 99|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point27 : 104|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point28 : 107|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point29 : 112|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point30 : 115|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point31 : 120|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point32 : 123|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point33 : 128|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point34 : 131|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point35 : 136|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point36 : 139|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point37 : 144|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point38 : 147|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point39 : 152|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point40 : 155|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point41 : 160|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point42 : 163|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point43 : 168|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point44 : 171|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point45 : 176|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point46 : 179|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point47 : 184|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point48 : 187|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point49 : 192|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point50 : 195|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point51 : 200|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point52 : 203|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point53 : 208|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point54 : 211|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point55 : 216|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point56 : 219|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point57 : 224|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point58 : 227|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point59 : 232|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point60 : 235|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point61 : 240|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point62 : 243|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point63 : 248|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Type_Point64 : 251|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_RollingCounter_483 : 254|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_483 : 264|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1124 FCM_CIPV: 64 FrCamera
+ SG_ FC_CIPV_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_CIPVFlag : 8|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_MCP_ID : 16|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_MCPFlag : 24|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_CIPV_TTC : 25|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_CIPV_TTC_Valid : 35|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_RollingCounter_464 : 36|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_464 : 40|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1104 FCM_OD_1: 64 FrCamera
+ SG_ FC_Obj1_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj1_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj1_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj1_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj1_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj1_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj1_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj1_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj1_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj1_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj1_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj1_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj1_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj1_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj1_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj1_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj1_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj1_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj1_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj1_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj1_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj1_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj1_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj1_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj1_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj1_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj1_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj1_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj1_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj1_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj1_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj1_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj1_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj1_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj1_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj1_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj1_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj1_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj1_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj1_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj1_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj1_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj1_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_450 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_450 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1105 FCM_OD_2: 64 FrCamera
+ SG_ FC_Obj2_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj2_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj2_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj2_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj2_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj2_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj2_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj2_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj2_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj2_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj2_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj2_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj2_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj2_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj2_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj2_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj2_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj2_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj2_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj2_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj2_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj2_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj2_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj2_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj2_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj2_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj2_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj2_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj2_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj2_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj2_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj2_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj2_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj2_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj2_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj2_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj2_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj2_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj2_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj2_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj2_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj2_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj2_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_451 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_451 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1106 FCM_OD_3: 64 FrCamera
+ SG_ FC_Obj3_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj3_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj3_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj3_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj3_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj3_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj3_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj3_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj3_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj3_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj3_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj3_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj3_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj3_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj3_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj3_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj3_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj3_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj3_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj3_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj3_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj3_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj3_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj3_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj3_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj3_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj3_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj3_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj3_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj3_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj3_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj3_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj3_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj3_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj3_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj3_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj3_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj3_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj3_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj3_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj3_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj3_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj3_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_452 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_452 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1107 FCM_OD_4: 64 FrCamera
+ SG_ FC_Obj4_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj4_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj4_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj4_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj4_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj4_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj4_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj4_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj4_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj4_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj4_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj4_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj4_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj4_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj4_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj4_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj4_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj4_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj4_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj4_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj4_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj4_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj4_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj4_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj4_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj4_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj4_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj4_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj4_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj4_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj4_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj4_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj4_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj4_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj4_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj4_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj4_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj4_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj4_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj4_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj4_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj4_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj4_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_453 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_453 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1108 FCM_OD_5: 64 FrCamera
+ SG_ FC_Obj5_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj5_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj5_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj5_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj5_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj5_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj5_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj5_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj5_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj5_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj5_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj5_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj5_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj5_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj5_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj5_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj5_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj5_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj5_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj5_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj5_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj5_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj5_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj5_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj5_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj5_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj5_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj5_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj5_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj5_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj5_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj5_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj5_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj5_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj5_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj5_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj5_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj5_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj5_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj5_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj5_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj5_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj5_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_454 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_454 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1109 FCM_OD_6: 64 FrCamera
+ SG_ FC_Obj6_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj6_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj6_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj6_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj6_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj6_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj6_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj6_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj6_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj6_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj6_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj6_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj6_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj6_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj6_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj6_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj6_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj6_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj6_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj6_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj6_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj6_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj6_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj6_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj6_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj6_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj6_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj6_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj6_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj6_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj6_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj6_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj6_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj6_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj6_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj6_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj6_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj6_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj6_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj6_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj6_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj6_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj6_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_455 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_455 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1110 FCM_OD_7: 64 FrCamera
+ SG_ FC_Obj7_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj7_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj7_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj7_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj7_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj7_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj7_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj7_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj7_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj7_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj7_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj7_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj7_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj7_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj7_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj7_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj7_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj7_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj7_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj7_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj7_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj7_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj7_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj7_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj7_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj7_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj7_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj7_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj7_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj7_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj7_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj7_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj7_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj7_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj7_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj7_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj7_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj7_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj7_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj7_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj7_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj7_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj7_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_456 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_456 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1111 FCM_OD_8: 64 FrCamera
+ SG_ FC_Obj8_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj8_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj8_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj8_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj8_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj8_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj8_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj8_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj8_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj8_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj8_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj8_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj8_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj8_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj8_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj8_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj8_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj8_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj8_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj8_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj8_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj8_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj8_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj8_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj8_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj8_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj8_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj8_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj8_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj8_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj8_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj8_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj8_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj8_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj8_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj8_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj8_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj8_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj8_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj8_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj8_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj8_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj8_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_457 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_457 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1112 FCM_OD_9: 64 FrCamera
+ SG_ FC_Obj9_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj9_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj9_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj9_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj9_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj9_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj9_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj9_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj9_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj9_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj9_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj9_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj9_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj9_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj9_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj9_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj9_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj9_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj9_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj9_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj9_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj9_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj9_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj9_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj9_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj9_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj9_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj9_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj9_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj9_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj9_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj9_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj9_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj9_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj9_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj9_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj9_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj9_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj9_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj9_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj9_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj9_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj9_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_458 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_458 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1113 FCM_OD_10: 64 FrCamera
+ SG_ FC_Obj10_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj10_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj10_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj10_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj10_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj10_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj10_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj10_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj10_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj10_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj10_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj10_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj10_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj10_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj10_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj10_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj10_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj10_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj10_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj10_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj10_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj10_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj10_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj10_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj10_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj10_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj10_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj10_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj10_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj10_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj10_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj10_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj10_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj10_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj10_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj10_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj10_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj10_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj10_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj10_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj10_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj10_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj10_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_459 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_459 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1114 FCM_OD_11: 64 FrCamera
+ SG_ FC_Obj11_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj11_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj11_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj11_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj11_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj11_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj11_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj11_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj11_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj11_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj11_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj11_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj11_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj11_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj11_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj11_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj11_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj11_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj11_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj11_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj11_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj11_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj11_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj11_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj11_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj11_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj11_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj11_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj11_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj11_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj11_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj11_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj11_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj11_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj11_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj11_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj11_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj11_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj11_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj11_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj11_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj11_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj11_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45A : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45A : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1115 FCM_OD_12: 64 FrCamera
+ SG_ FC_Obj12_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj12_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj12_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj12_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj12_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj12_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj12_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj12_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj12_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj12_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj12_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj12_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj12_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj12_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj12_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj12_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj12_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj12_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj12_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj12_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj12_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj12_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj12_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj12_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj12_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj12_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj12_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj12_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj12_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj12_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj12_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj12_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj12_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj12_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj12_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj12_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj12_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj12_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj12_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj12_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj12_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj12_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj12_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45B : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45B : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1116 FCM_OD_13: 64 FrCamera
+ SG_ FC_Obj13_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj13_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj13_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj13_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj13_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj13_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj13_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj13_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj13_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj13_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj13_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj13_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj13_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj13_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj13_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj13_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj13_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj13_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj13_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj13_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj13_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj13_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj13_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj13_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj13_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj13_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj13_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj13_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj13_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj13_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj13_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj13_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj13_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj13_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj13_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj13_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj13_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj13_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj13_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj13_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj13_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj13_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj13_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45C : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45C : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1117 FCM_OD_14: 64 FrCamera
+ SG_ FC_Obj14_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj14_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj14_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj14_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj14_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj14_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj14_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj14_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj14_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj14_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj14_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj14_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj14_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj14_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj14_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj14_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj14_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj14_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj14_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj14_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj14_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj14_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj14_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj14_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj14_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj14_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj14_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj14_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj14_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj14_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj14_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj14_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj14_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj14_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj14_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj14_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj14_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj14_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj14_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj14_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj14_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj14_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj14_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45D : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45D : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1118 FCM_OD_15: 64 FrCamera
+ SG_ FC_Obj15_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj15_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj15_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj15_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj15_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj15_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj15_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj15_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj15_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj15_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj15_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj15_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj15_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj15_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj15_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj15_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj15_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj15_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj15_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj15_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj15_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj15_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj15_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj15_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj15_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj15_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj15_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj15_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj15_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj15_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj15_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj15_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj15_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj15_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj15_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj15_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj15_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj15_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj15_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj15_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj15_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj15_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj15_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45E : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45E : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1119 FCM_OD_16: 64 FrCamera
+ SG_ FC_Obj16_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj16_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj16_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj16_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj16_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj16_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj16_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj16_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj16_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj16_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj16_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj16_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj16_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj16_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj16_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj16_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj16_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj16_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj16_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj16_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj16_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj16_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj16_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj16_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj16_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj16_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj16_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj16_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj16_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj16_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj16_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj16_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj16_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj16_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj16_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj16_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj16_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj16_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj16_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj16_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj16_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj16_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj16_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_45F : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_45F : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1120 FCM_OD_17: 64 FrCamera
+ SG_ FC_Obj17_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj17_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj17_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj17_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj17_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj17_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj17_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj17_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj17_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj17_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj17_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj17_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj17_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj17_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj17_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj17_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj17_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj17_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj17_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj17_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj17_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj17_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj17_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj17_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj17_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj17_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj17_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj17_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj17_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj17_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj17_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj17_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj17_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj17_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj17_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj17_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj17_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj17_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj17_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj17_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj17_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj17_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj17_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_460 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_460 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1121 FCM_OD_18: 64 FrCamera
+ SG_ FC_Obj18_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj18_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj18_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj18_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj18_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj18_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj18_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj18_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj18_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj18_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj18_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj18_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj18_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj18_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj18_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj18_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj18_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj18_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj18_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj18_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj18_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj18_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj18_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj18_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj18_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj18_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj18_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj18_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj18_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj18_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj18_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj18_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj18_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj18_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj18_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj18_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj18_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj18_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj18_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj18_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj18_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj18_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj18_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_461 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_461 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1122 FCM_OD_19: 64 FrCamera
+ SG_ FC_Obj19_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj19_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj19_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj19_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj19_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj19_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj19_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj19_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj19_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj19_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj19_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj19_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj19_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj19_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj19_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj19_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj19_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj19_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj19_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj19_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj19_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj19_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj19_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj19_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj19_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj19_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj19_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj19_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj19_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj19_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj19_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj19_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj19_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj19_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj19_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj19_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj19_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj19_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj19_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj19_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj19_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj19_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj19_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_462 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_462 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1123 FCM_OD_20: 64 FrCamera
+ SG_ FC_Obj20_Track_ID : 0|8@1+ (1,0) [0|255] ""  ADAS
+ SG_ FC_Obj20_Valid : 8|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj20_Track_Age : 16|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Obj20_Confidence : 257|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Obj20_MotionCategory : 10|4@1+ (1,0) [0|13] ""  ADAS
+ SG_ FC_Obj20_MotionType : 32|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj20_MeasureStatus : 35|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj20_Class : 38|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj20_VehSubType : 41|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Obj20_PedSubType : 44|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Obj20_LaneAssignment : 46|3@1+ (1,0) [0|5] ""  ADAS
+ SG_ FC_Obj20_Height : 49|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj20_Height_Vnce : 58|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj20_Length : 67|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj20_Length_Vnce : 76|9@1+ (0.05,0) [0|25.6] "m"  ADAS
+ SG_ FC_Obj20_Width : 85|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj20_Width_Vnce : 94|9@1+ (0.02,0) [0|10.24] "m"  ADAS
+ SG_ FC_Obj20_TurnLight : 103|3@1+ (1,0) [0|4] ""  ADAS
+ SG_ FC_Obj20_Brakelight_Info : 106|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Obj20_TTC : 107|10@1+ (0.01,0) [0|10] "sec"  ADAS
+ SG_ FC_Obj20_Dx : 117|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj20_Dx_STD : 130|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj20_Dy : 143|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj20_Dy_STD : 156|13@1+ (0.0625,0) [0|250] "m"  ADAS
+ SG_ FC_Obj20_RelVx : 169|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj20_RelVx_STD : 181|12@1+ (0.05,0) [0|102.35] "m/s"  ADAS
+ SG_ FC_Obj20_RelVy : 193|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj20_RelVy_STD : 205|12@1+ (0.05,0) [0|50] "m/s"  ADAS
+ SG_ FC_Obj20_RelAx : 217|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj20_RelAx_STD : 227|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj20_RelAy : 237|10@1+ (0.03,-14.97) [-14.97|14.97] "m/s2"  ADAS
+ SG_ FC_Obj20_RelAy_STD : 247|10@1+ (0.03,0) [0|14.97] "m/s2"  ADAS
+ SG_ FC_Obj20_HeadingAngle : 264|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj20_HeadingAngle_Vnce : 280|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj20_WorldinfoYaw : 296|16@1+ (0.01,-327.68) [-327.68|327.67] "degree"  ADAS
+ SG_ FC_Obj20_WorldinfoYaw_Vnce : 312|16@1+ (0.01,0) [0|327.67] "degree"  ADAS
+ SG_ FC_Obj20_AbsVx : 328|12@1+ (0.05,-102.4) [-102.4|102.35] "m/s"  ADAS
+ SG_ FC_Obj20_AbsVy : 340|12@1+ (0.05,-50) [-50|50] "m/s"  ADAS
+ SG_ FC_Obj20_CutInFlag : 352|2@1+ (1,0) [0|2] ""  ADAS
+ SG_ FC_Obj20_CornerPoint_x : 354|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj20_CornerPoint_y : 368|13@1+ (0.0625,-250) [-250|250] "m"  ADAS
+ SG_ FC_Obj20_CutInLane : 384|13@1+ (0.01,-40.96) [-40.96|40.95] "m"  ADAS
+ SG_ FC_Obj20_DistInLane : 400|11@1+ (0.01,-10) [-10|10] ""  ADAS
+ SG_ FC_RollingCounter_462 : 411|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_462 : 416|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1136 FCM_LD_1: 64 FrCamera
+ SG_ FC_Line1_ID : 0|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line1_Confidence : 16|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line1_MeasureStauts : 24|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line1_Type : 27|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line1_color : 32|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line1_Width : 34|7@1+ (0.01,0) [0|1] "m"  ADAS
+ SG_ FC_Line1_dx_Start : 41|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line1_dx_End : 52|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line1_ModelC0 : 64|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line1_ModelC1 : 75|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line1_ModelC2 : 88|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line1_ModelC3 : 104|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line1_ParseConf : 121|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line2_ID : 128|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line2_Confidence : 144|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line2_MeasureStauts : 152|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line2_Type : 155|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line2_color : 160|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line2_Width : 162|7@1+ (0.01,0) [0|1] "m"  ADAS
+ SG_ FC_Line2_dx_Start : 169|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line2_dx_End : 180|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line2_ModelC0 : 191|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line2_ModelC1 : 202|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line2_ModelC2 : 216|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line2_ModelC3 : 232|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line2_ParseConf : 249|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_RollingCounter_470 : 256|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_470 : 264|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1137 FCM_LD_2: 64 FrCamera
+ SG_ FC_Line3_ID : 0|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line3_Confidence : 16|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line3_MeasureStauts : 24|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line3_Type : 27|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line3_color : 32|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line3_Width : 34|7@1+ (0.01,0) [0|1] "m"  ADAS
+ SG_ FC_Line3_dx_Start : 41|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line3_dx_End : 52|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line3_ModelC0 : 64|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line3_ModelC1 : 75|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line3_ModelC2 : 88|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line3_ModelC3 : 104|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line3_ParseConf : 121|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line4_ID : 128|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line4_Confidence : 144|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line4_MeasureStauts : 152|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line4_Type : 155|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line4_color : 160|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line4_Width : 162|7@1+ (0.01,0) [0|1] "m"  ADAS
+ SG_ FC_Line4_dx_Start : 169|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line4_dx_End : 180|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line4_ModelC0 : 191|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line4_ModelC1 : 202|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line4_ModelC2 : 216|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line4_ModelC3 : 232|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line4_ParseConf : 249|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_RollingCounter_471 : 256|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_471 : 264|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1138 FCM_LD_3: 64 FrCamera
+ SG_ FC_Line5_ID : 0|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line5_Confidence : 16|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line5_MeasureStauts : 24|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line5_Type : 27|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line5_color : 32|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line5_dx_Start : 41|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line5_dx_End : 52|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line5_ModelC0 : 64|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line5_ModelC1 : 75|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line5_ModelC2 : 88|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line5_ModelC3 : 104|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line5_ParseConf : 121|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line6_ID : 128|16@1+ (1,0) [0|65535] ""  ADAS
+ SG_ FC_Line6_Confidence : 144|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_Line6_MeasureStauts : 152|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_Line6_Type : 155|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_Line6_color : 160|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_Line6_dx_Start : 169|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line6_dx_End : 180|11@1+ (0.1,0) [0|200] "m"  ADAS
+ SG_ FC_Line6_ModelC0 : 191|11@1+ (0.01,0) [-10|10] "m"  ADAS
+ SG_ FC_Line6_ModelC1 : 202|11@1+ (0.0009765625,0) [-1|0.9990234375] "rad"  ADAS
+ SG_ FC_Line6_ModelC2 : 216|16@1+ (9.77E-007,0) [-0.032|0.032] "1/m"  ADAS
+ SG_ FC_Line6_ModelC3 : 232|17@1+ (3.7252902985E-009,0) [-0.000244140625002496|0.000244136899712198] "1/m2"  ADAS
+ SG_ FC_Line6_ParseConf : 249|7@1+ (1,0) [0|100] "%"  ADAS
+ SG_ FC_RollingCounter_472 : 256|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_472 : 264|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1168 FCM_TFLTSR_1: 64 FrCamera
+ SG_ FC_RoadType : 0|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_WeatherType : 3|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_RollingCounter_490 : 304|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_490 : 312|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1172 FCM_IHBC_ISA_TSR: 64 FrCamera
+ SG_ FC_IHBC_Decision : 0|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_VisionOnlySign_Type : 1|5@1+ (1,0) [0|19] ""  ADAS
+ SG_ FC_ISA_Value : 6|5@1+ (1,0) [0|19] ""  ADAS
+ SG_ FC_ISA_Sign_Type : 11|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_ISA_Popup_text : 13|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_SpeedLimitType : 16|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_TSRHostSpdLimitUnits : 19|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_TSRMandatorySign : 21|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_TSRProhibitionSign : 25|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_TSRWarningSign : 32|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_StopLine_Detected : 36|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_StopLine_Dist : 37|10@1+ (0.1,0) [0|102.3] "m"  ADAS
+ SG_ FC_Crosswalk_Detect : 47|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_Crosswalk_Dist : 48|10@1+ (0.1,0) [0|102.3] "m"  ADAS
+ SG_ FC_SpeedBump_Detect : 58|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_SpeedBump_Dist : 59|10@1+ (0.1,0) [0|102.3] "m"  ADAS
+ SG_ FC_RollingCounter_494 : 72|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_494 : 80|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1173 FCM_FailSafe: 64 FrCamera
+ SG_ FC_CameraCalibrationStatus : 0|2@1+ (1,0) [0|3] ""  ADAS
+ SG_ FC_CameraFailureStatus : 2|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_FrameID : 16|32@1+ (1,0) [0|4294967295] ""  ADAS
+ SG_ FC_TiStamp : 48|32@1+ (0.0001,0) [0|429496.7295] "s"  ADAS
+ SG_ FC_TiBas : 80|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_TiLeap : 81|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_TiOut : 82|1@1+ (1,0) [0|1] ""  ADAS
+ SG_ FC_MCUTiStamp : 88|8@1+ (1,0) [0|255] "um"  ADAS
+ SG_ FC_RollingCounter_495 : 96|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_495 : 104|16@1+ (1,0) [0|65535] ""  ADAS
+
+BO_ 1139 FCM_CB_1: 64 FrCamera
+ SG_ FC_StaticObj1_Type : 0|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj2_Type : 3|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj3_Type : 6|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj4_Type : 9|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj5_Type : 12|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj6_Type : 15|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj7_Type : 18|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj8_Type : 21|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj9_Type : 24|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj10_Type : 27|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj11_Type : 30|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj12_Type : 33|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj13_Type : 36|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj14_Type : 39|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj15_Type : 42|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj16_Type : 45|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj17_Type : 48|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj18_Type : 51|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj19_Type : 54|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj20_Type : 57|3@1+ (1,0) [0|7] ""  ADAS
+ SG_ FC_StaticObj1_Dx : 60|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj2_Dx : 70|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj3_Dx : 80|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj4_Dx : 90|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj5_Dx : 100|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj6_Dx : 110|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj7_Dx : 120|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj8_Dx : 130|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj9_Dx : 140|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj10_Dx : 150|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj11_Dx : 160|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj12_Dx : 170|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj13_Dx : 180|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj14_Dx : 190|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj15_Dx : 200|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj16_Dx : 210|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj17_Dx : 220|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj18_Dx : 230|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj19_Dx : 240|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj20_Dx : 250|10@1+ (0.2,0) [0|204.6] "m"  ADAS
+ SG_ FC_StaticObj1_Dy : 260|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj2_Dy : 271|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj3_Dy : 282|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj4_Dy : 293|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj5_Dy : 304|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj6_Dy : 315|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj7_Dy : 326|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj8_Dy : 337|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj9_Dy : 348|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj10_Dy : 359|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj11_Dy : 370|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj12_Dy : 381|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj13_Dy : 392|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj14_Dy : 403|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj15_Dy : 414|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj16_Dy : 425|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj17_Dy : 436|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj18_Dy : 447|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj19_Dy : 458|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_StaticObj20_Dy : 469|11@1+ (0.05,-51) [-51|51.35] "m"  ADAS
+ SG_ FC_RollingCounter_473 : 480|4@1+ (1,0) [0|15] ""  ADAS
+ SG_ FC_CRCChecksum_473 : 488|16@1+ (1,0) [0|65535] ""  ADAS
+
+
+
+CM_ SG_ 257 ADCM_SyncMsgType "Time synchronization message - type
+- Multiplexor";
+CM_ SG_ 257 ADCM_SyncMsg_Checksum "ADCM_SyncMsgType = 0x20
+
+Time synchronization message - CRC (Cyclic Redundancy Check)";
+CM_ SG_ 257 ADCM_SyncMsg_Fup_Checksum "ADCM_SyncMsgType = 0x28
+
+Time synchronization message - CRC (Cyclic Redundancy Check)";
+CM_ SG_ 257 ADCM_SyncMsg_SequenceCounter "ADCM_SyncMsgType = 0x20
+
+Time synchronization message - sequence counter";
+CM_ SG_ 257 ADCM_SyncMsg_Fup_SequenceCounter "ADCM_SyncMsgType = 0x28
+
+Time synchronization message - sequence counter";
+CM_ SG_ 257 ADCM_SyncMsgTimeDomain "ADCM_SyncMsgType = 0x20
+
+Time synchronization messagetime - domainADCM_SyncMsgType = 0x28
+
+Time synchronization messagetime - domain";
+CM_ SG_ 257 ADCM_SyncMsg_UserByte0 "ADCM_SyncMsgType = 0x20";
+CM_ SG_ 257 ADCM_SyncMsgOVS "
+ADCM_SyncMsgType = 0x28
+Time synchronization message - Overflow of second";
+CM_ SG_ 257 ADCM_SyncMsg_Fup_SGM "ADCM_SyncMsgType = 0x28";
+CM_ SG_ 257 ADCM_SyncMsg_Fup_Reserved "ADCM_SyncMsgType = 0x28";
+CM_ SG_ 257 ADCM_SyncMsgSyncTime "ADCM_SyncMsgType = 0x20
+
+Time synchronization message - Synchronization time";
+CM_ SG_ 257 ADCM_SyncMsg_Fup_SyncTime "ADCM_SyncMsgType = 0x28";
+CM_ SG_ 1152 FC_lateral1 "freespace点1的横向距离";
+CM_ SG_ 1152 FC_longitudinal1 "freespace点1的纵向距离";
+CM_ SG_ 1152 FC_lateral2 "freespace点2的横向距离";
+CM_ SG_ 1152 FC_longitudinal2 "freespace点2的纵向距离";
+CM_ SG_ 1152 FC_lateral3 "freespace点3的横向距离";
+CM_ SG_ 1152 FC_longitudinal3 "freespace点3的纵向距离";
+CM_ SG_ 1152 FC_lateral4 "freespace点4的横向距离";
+CM_ SG_ 1152 FC_longitudinal4 "freespace点4的纵向距离";
+CM_ SG_ 1152 FC_lateral5 "freespace点5的横向距离";
+CM_ SG_ 1152 FC_longitudinal5 "freespace点5的纵向距离";
+CM_ SG_ 1152 FC_lateral6 "freespace点6的横向距离";
+CM_ SG_ 1152 FC_longitudinal6 "freespace点6的纵向距离";
+CM_ SG_ 1152 FC_lateral7 "freespace点7的横向距离";
+CM_ SG_ 1152 FC_longitudinal7 "freespace点7的纵向距离";
+CM_ SG_ 1152 FC_lateral8 "freespace点8的横向距离";
+CM_ SG_ 1152 FC_longitudinal8 "freespace点8的纵向距离";
+CM_ SG_ 1152 FC_lateral9 "freespace点9的横向距离";
+CM_ SG_ 1152 FC_longitudinal9 "freespace点9的纵向距离";
+CM_ SG_ 1152 FC_lateral10 "freespace点10的横向距离";
+CM_ SG_ 1152 FC_longitudinal10 "freespace点10的纵向距离";
+CM_ SG_ 1152 FC_lateral11 "freespace点11的横向距离";
+CM_ SG_ 1152 FC_longitudinal11 "freespace点11的纵向距离";
+CM_ SG_ 1152 FC_lateral12 "freespace点12的横向距离";
+CM_ SG_ 1152 FC_longitudinal12 "freespace点12的纵向距离";
+CM_ SG_ 1152 FC_lateral13 "freespace点13的横向距离";
+CM_ SG_ 1152 FC_longitudinal13 "freespace点13的纵向距离";
+CM_ SG_ 1152 FC_lateral14 "freespace点14的横向距离";
+CM_ SG_ 1152 FC_longitudinal14 "freespace点14的纵向距离";
+CM_ SG_ 1152 FC_lateral15 "freespace点15的横向距离";
+CM_ SG_ 1152 FC_longitudinal15 "freespace点15的纵向距离";
+CM_ SG_ 1152 FC_lateral16 "freespace点16的横向距离";
+CM_ SG_ 1152 FC_longitudinal16 "freespace点16的纵向距离";
+CM_ SG_ 1152 FC_lateral17 "freespace点17的横向距离";
+CM_ SG_ 1152 FC_longitudinal17 "freespace点17的纵向距离";
+CM_ SG_ 1152 FC_lateral18 "freespace点18的横向距离";
+CM_ SG_ 1152 FC_longitudinal18 "freespace点18的纵向距离";
+CM_ SG_ 1152 FC_lateral19 "freespace点19的横向距离";
+CM_ SG_ 1152 FC_longitudinal19 "freespace点19的纵向距离";
+CM_ SG_ 1152 FC_lateral20 "freespace点20的横向距离";
+CM_ SG_ 1152 FC_longitudinal20 "freespace点20的纵向距离";
+CM_ SG_ 1152 FC_lateral21 "freespace点21的横向距离";
+CM_ SG_ 1152 FC_longitudinal21 "freespace点21的纵向距离";
+CM_ SG_ 1152 FC_RollingCounter_480 "481报文的计数器";
+CM_ SG_ 1152 FC_CRCChecksum_480 "481报文的校验和";
+CM_ SG_ 1153 FC_lateral22 "freespace点22的横向距离";
+CM_ SG_ 1153 FC_longitudinal22 "freespace点22的纵向距离";
+CM_ SG_ 1153 FC_lateral23 "freespace点23的横向距离";
+CM_ SG_ 1153 FC_longitudinal23 "freespace点23的纵向距离";
+CM_ SG_ 1153 FC_lateral24 "freespace点24的横向距离";
+CM_ SG_ 1153 FC_longitudinal24 "freespace点24的纵向距离";
+CM_ SG_ 1153 FC_lateral25 "freespace点25的横向距离";
+CM_ SG_ 1153 FC_longitudinal25 "freespace点25的纵向距离";
+CM_ SG_ 1153 FC_lateral26 "freespace点26的横向距离";
+CM_ SG_ 1153 FC_longitudinal26 "freespace点26的纵向距离";
+CM_ SG_ 1153 FC_lateral27 "freespace点27的横向距离";
+CM_ SG_ 1153 FC_longitudinal27 "freespace点27的纵向距离";
+CM_ SG_ 1153 FC_lateral28 "freespace点28的横向距离";
+CM_ SG_ 1153 FC_longitudinal28 "freespace点28的纵向距离";
+CM_ SG_ 1153 FC_lateral29 "freespace点29的横向距离";
+CM_ SG_ 1153 FC_longitudinal29 "freespace点29的纵向距离";
+CM_ SG_ 1153 FC_lateral30 "freespace点30的横向距离";
+CM_ SG_ 1153 FC_longitudinal30 "freespace点30的纵向距离";
+CM_ SG_ 1153 FC_lateral31 "freespace点31的横向距离";
+CM_ SG_ 1153 FC_longitudinal31 "freespace点31的纵向距离";
+CM_ SG_ 1153 FC_lateral32 "freespace点32的横向距离";
+CM_ SG_ 1153 FC_longitudinal32 "freespace点32的纵向距离";
+CM_ SG_ 1153 FC_lateral33 "freespace点33的横向距离";
+CM_ SG_ 1153 FC_longitudinal33 "freespace点33的纵向距离";
+CM_ SG_ 1153 FC_lateral34 "freespace点34的横向距离";
+CM_ SG_ 1153 FC_longitudinal34 "freespace点34的纵向距离";
+CM_ SG_ 1153 FC_lateral35 "freespace点35的横向距离";
+CM_ SG_ 1153 FC_longitudinal35 "freespace点35的纵向距离";
+CM_ SG_ 1153 FC_lateral36 "freespace点36的横向距离";
+CM_ SG_ 1153 FC_longitudinal36 "freespace点36的纵向距离";
+CM_ SG_ 1153 FC_lateral37 "freespace点37的横向距离";
+CM_ SG_ 1153 FC_longitudinal37 "freespace点37的纵向距离";
+CM_ SG_ 1153 FC_lateral38 "freespace点38的横向距离";
+CM_ SG_ 1153 FC_longitudinal38 "freespace点38的纵向距离";
+CM_ SG_ 1153 FC_lateral39 "freespace点39的横向距离";
+CM_ SG_ 1153 FC_longitudinal39 "freespace点39的纵向距离";
+CM_ SG_ 1153 FC_lateral40 "freespace点40的横向距离";
+CM_ SG_ 1153 FC_longitudinal40 "freespace点40的纵向距离";
+CM_ SG_ 1153 FC_lateral41 "freespace点41的横向距离";
+CM_ SG_ 1153 FC_longitudinal41 "freespace点41的纵向距离";
+CM_ SG_ 1153 FC_lateral42 "freespace点42的横向距离";
+CM_ SG_ 1153 FC_longitudinal42 "freespace点42的纵向距离";
+CM_ SG_ 1153 FC_RollingCounter_481 "481报文的计数器";
+CM_ SG_ 1153 FC_CRCChecksum_481 "481报文的校验和";
+CM_ SG_ 1154 FC_lateral43 "freespace点43的横向距离";
+CM_ SG_ 1154 FC_longitudinal43 "freespace点43的纵向距离";
+CM_ SG_ 1154 FC_lateral44 "freespace点44的横向距离";
+CM_ SG_ 1154 FC_longitudinal44 "freespace点44的纵向距离";
+CM_ SG_ 1154 FC_lateral45 "freespace点45的横向距离";
+CM_ SG_ 1154 FC_longitudinal45 "freespace点45的纵向距离";
+CM_ SG_ 1154 FC_lateral46 "freespace点46的横向距离";
+CM_ SG_ 1154 FC_longitudinal46 "freespace点46的纵向距离";
+CM_ SG_ 1154 FC_lateral47 "freespace点47的横向距离";
+CM_ SG_ 1154 FC_longitudinal47 "freespace点47的纵向距离";
+CM_ SG_ 1154 FC_lateral48 "freespace点48的横向距离";
+CM_ SG_ 1154 FC_longitudinal48 "freespace点48的纵向距离";
+CM_ SG_ 1154 FC_lateral49 "freespace点49的横向距离";
+CM_ SG_ 1154 FC_longitudinal49 "freespace点49的纵向距离";
+CM_ SG_ 1154 FC_lateral50 "freespace点50的横向距离";
+CM_ SG_ 1154 FC_longitudinal50 "freespace点50的纵向距离";
+CM_ SG_ 1154 FC_lateral51 "freespace点51的横向距离";
+CM_ SG_ 1154 FC_longitudinal51 "freespace点51的纵向距离";
+CM_ SG_ 1154 FC_lateral52 "freespace点52的横向距离";
+CM_ SG_ 1154 FC_longitudinal52 "freespace点52的纵向距离";
+CM_ SG_ 1154 FC_lateral53 "freespace点53的横向距离";
+CM_ SG_ 1154 FC_longitudinal53 "freespace点53的纵向距离";
+CM_ SG_ 1154 FC_lateral54 "freespace点54的横向距离";
+CM_ SG_ 1154 FC_longitudinal54 "freespace点54的纵向距离";
+CM_ SG_ 1154 FC_lateral55 "freespace点55的横向距离";
+CM_ SG_ 1154 FC_longitudinal55 "freespace点55的纵向距离";
+CM_ SG_ 1154 FC_lateral56 "freespace点56的横向距离";
+CM_ SG_ 1154 FC_longitudinal56 "freespace点56的纵向距离";
+CM_ SG_ 1154 FC_lateral57 "freespace点57的横向距离";
+CM_ SG_ 1154 FC_longitudinal57 "freespace点57的纵向距离";
+CM_ SG_ 1154 FC_lateral58 "freespace点58的横向距离";
+CM_ SG_ 1154 FC_longitudinal58 "freespace点58的纵向距离";
+CM_ SG_ 1154 FC_lateral59 "freespace点59的横向距离";
+CM_ SG_ 1154 FC_longitudinal59 "freespace点59的纵向距离";
+CM_ SG_ 1154 FC_lateral60 "freespace点60的横向距离";
+CM_ SG_ 1154 FC_longitudinal60 "freespace点60的纵向距离";
+CM_ SG_ 1154 FC_lateral61 "freespace点61的横向距离";
+CM_ SG_ 1154 FC_longitudinal61 "freespace点61的纵向距离";
+CM_ SG_ 1154 FC_lateral62 "freespace点62的横向距离";
+CM_ SG_ 1154 FC_longitudinal62 "freespace点62的纵向距离";
+CM_ SG_ 1154 FC_lateral63 "freespace点63的横向距离";
+CM_ SG_ 1154 FC_longitudinal63 "freespace点63的纵向距离";
+CM_ SG_ 1154 FC_lateral64 "freespace点64的横向距离";
+CM_ SG_ 1154 FC_longitudinal64 "freespace点64的纵向距离";
+CM_ SG_ 1154 FC_RollingCounter_482 "482报文的计数器";
+CM_ SG_ 1154 FC_CRCChecksum_482 "482报文的校验和";
+CM_ SG_ 1155 FC_Type_Point1 "freespace点1的类型";
+CM_ SG_ 1155 FC_Type_Point2 "freespace点2的类型";
+CM_ SG_ 1155 FC_Type_Point3 "freespace点3的类型";
+CM_ SG_ 1155 FC_Type_Point4 "freespace点4的类型";
+CM_ SG_ 1155 FC_Type_Point5 "freespace点5的类型";
+CM_ SG_ 1155 FC_Type_Point6 "freespace点6的类型";
+CM_ SG_ 1155 FC_Type_Point7 "freespace点7的类型";
+CM_ SG_ 1155 FC_Type_Point8 "freespace点8的类型";
+CM_ SG_ 1155 FC_Type_Point9 "freespace点9的类型";
+CM_ SG_ 1155 FC_Type_Point10 "freespace点10的类型";
+CM_ SG_ 1155 FC_Type_Point11 "freespace点11的类型";
+CM_ SG_ 1155 FC_Type_Point12 "freespace点12的类型";
+CM_ SG_ 1155 FC_Type_Point13 "freespace点13的类型";
+CM_ SG_ 1155 FC_Type_Point14 "freespace点14的类型";
+CM_ SG_ 1155 FC_Type_Point15 "freespace点15的类型";
+CM_ SG_ 1155 FC_Type_Point16 "freespace点16的类型";
+CM_ SG_ 1155 FC_Type_Point17 "freespace点17的类型";
+CM_ SG_ 1155 FC_Type_Point18 "freespace点18的类型";
+CM_ SG_ 1155 FC_Type_Point19 "freespace点19的类型";
+CM_ SG_ 1155 FC_Type_Point20 "freespace点20的类型";
+CM_ SG_ 1155 FC_Type_Point21 "freespace点21的类型";
+CM_ SG_ 1155 FC_Type_Point22 "freespace点22的类型";
+CM_ SG_ 1155 FC_Type_Point23 "freespace点23的类型";
+CM_ SG_ 1155 FC_Type_Point24 "freespace点24的类型";
+CM_ SG_ 1155 FC_Type_Point25 "freespace点25的类型";
+CM_ SG_ 1155 FC_Type_Point26 "freespace点26的类型";
+CM_ SG_ 1155 FC_Type_Point27 "freespace点27的类型";
+CM_ SG_ 1155 FC_Type_Point28 "freespace点28的类型";
+CM_ SG_ 1155 FC_Type_Point29 "freespace点29的类型";
+CM_ SG_ 1155 FC_Type_Point30 "freespace点30的类型";
+CM_ SG_ 1155 FC_Type_Point31 "freespace点31的类型";
+CM_ SG_ 1155 FC_Type_Point32 "freespace点32的类型";
+CM_ SG_ 1155 FC_Type_Point33 "freespace点33的类型";
+CM_ SG_ 1155 FC_Type_Point34 "freespace点34的类型";
+CM_ SG_ 1155 FC_Type_Point35 "freespace点35的类型";
+CM_ SG_ 1155 FC_Type_Point36 "freespace点36的类型";
+CM_ SG_ 1155 FC_Type_Point37 "freespace点37的类型";
+CM_ SG_ 1155 FC_Type_Point38 "freespace点38的类型";
+CM_ SG_ 1155 FC_Type_Point39 "freespace点39的类型";
+CM_ SG_ 1155 FC_Type_Point40 "freespace点40的类型";
+CM_ SG_ 1155 FC_Type_Point41 "freespace点41的类型";
+CM_ SG_ 1155 FC_Type_Point42 "freespace点42的类型";
+CM_ SG_ 1155 FC_Type_Point43 "freespace点43的类型";
+CM_ SG_ 1155 FC_Type_Point44 "freespace点44的类型";
+CM_ SG_ 1155 FC_Type_Point45 "freespace点45的类型";
+CM_ SG_ 1155 FC_Type_Point46 "freespace点46的类型";
+CM_ SG_ 1155 FC_Type_Point47 "freespace点47的类型";
+CM_ SG_ 1155 FC_Type_Point48 "freespace点48的类型";
+CM_ SG_ 1155 FC_Type_Point49 "freespace点49的类型";
+CM_ SG_ 1155 FC_Type_Point50 "freespace点50的类型";
+CM_ SG_ 1155 FC_Type_Point51 "freespace点51的类型";
+CM_ SG_ 1155 FC_Type_Point52 "freespace点52的类型";
+CM_ SG_ 1155 FC_Type_Point53 "freespace点53的类型";
+CM_ SG_ 1155 FC_Type_Point54 "freespace点54的类型";
+CM_ SG_ 1155 FC_Type_Point55 "freespace点55的类型";
+CM_ SG_ 1155 FC_Type_Point56 "freespace点56的类型";
+CM_ SG_ 1155 FC_Type_Point57 "freespace点57的类型";
+CM_ SG_ 1155 FC_Type_Point58 "freespace点58的类型";
+CM_ SG_ 1155 FC_Type_Point59 "freespace点59的类型";
+CM_ SG_ 1155 FC_Type_Point60 "freespace点60的类型";
+CM_ SG_ 1155 FC_Type_Point61 "freespace点61的类型";
+CM_ SG_ 1155 FC_Type_Point62 "freespace点62的类型";
+CM_ SG_ 1155 FC_Type_Point63 "freespace点63的类型";
+CM_ SG_ 1155 FC_Type_Point64 "freespace点64的类型";
+CM_ SG_ 1155 FC_RollingCounter_483 "483报文的计数器";
+CM_ SG_ 1155 FC_CRCChecksum_483 "483报文的校验和";
+CM_ SG_ 1124 FC_CIPV_ID "CPIV目标的ID";
+CM_ SG_ 1124 FC_CIPVFlag "CPIV目标的标志位";
+CM_ SG_ 1124 FC_MCP_ID "MCP目标的ID";
+CM_ SG_ 1124 FC_MCPFlag "MCP目标的标志位";
+CM_ SG_ 1124 FC_CIPV_TTC "CIPV目标的TTC";
+CM_ SG_ 1124 FC_CIPV_TTC_Valid "CIPV目标的TTC有效性";
+CM_ SG_ 1124 FC_RollingCounter_464 "464报文的计数器";
+CM_ SG_ 1124 FC_CRCChecksum_464 "464报文的校验和";
+CM_ SG_ 1104 FC_Obj1_Track_ID "目标1 ID";
+CM_ SG_ 1104 FC_Obj1_Valid "目标1有效性";
+CM_ SG_ 1104 FC_Obj1_Track_Age "目标1跟踪周期";
+CM_ SG_ 1104 FC_Obj1_Confidence "目标1存在的置信度";
+CM_ SG_ 1104 FC_Obj1_MotionCategory "目标1的运动类别";
+CM_ SG_ 1104 FC_Obj1_MotionType "目标1的运动状态";
+CM_ SG_ 1104 FC_Obj1_MeasureStatus "目标1的测量状态";
+CM_ SG_ 1104 FC_Obj1_Class "目标1的类别";
+CM_ SG_ 1104 FC_Obj1_VehSubType "目标1为车辆时的子类别";
+CM_ SG_ 1104 FC_Obj1_PedSubType "目标1为行人时的子类别";
+CM_ SG_ 1104 FC_Obj1_LaneAssignment "目标1与车道线的关系";
+CM_ SG_ 1104 FC_Obj1_Height "目标1高度";
+CM_ SG_ 1104 FC_Obj1_Height_Vnce "目标1高度方差";
+CM_ SG_ 1104 FC_Obj1_Length "目标1长度";
+CM_ SG_ 1104 FC_Obj1_Length_Vnce "目标1长度方差";
+CM_ SG_ 1104 FC_Obj1_Width "目标1宽度";
+CM_ SG_ 1104 FC_Obj1_Width_Vnce "目标1宽度方差";
+CM_ SG_ 1104 FC_Obj1_TurnLight "目标1的转向灯信息";
+CM_ SG_ 1104 FC_Obj1_Brakelight_Info "目标1刹车灯信息";
+CM_ SG_ 1104 FC_Obj1_TTC "目标1的TTC";
+CM_ SG_ 1104 FC_Obj1_Dx "目标1纵向距离";
+CM_ SG_ 1104 FC_Obj1_Dx_STD "目标1纵向距离标准差";
+CM_ SG_ 1104 FC_Obj1_Dy "目标1横向距离";
+CM_ SG_ 1104 FC_Obj1_Dy_STD "目标1横向距离标准差";
+CM_ SG_ 1104 FC_Obj1_RelVx "目标1纵向相对速度";
+CM_ SG_ 1104 FC_Obj1_RelVx_STD "目标1纵向相对速度标准差";
+CM_ SG_ 1104 FC_Obj1_RelVy "目标1横向相对速度";
+CM_ SG_ 1104 FC_Obj1_RelVy_STD "目标1横向相对速度标准差";
+CM_ SG_ 1104 FC_Obj1_RelAx "目标1纵向相对加速度";
+CM_ SG_ 1104 FC_Obj1_RelAx_STD "目标1纵向相对加速度标准差";
+CM_ SG_ 1104 FC_Obj1_RelAy "目标1横向相对加速度";
+CM_ SG_ 1104 FC_Obj1_RelAy_STD "目标1横向相对加速度标准差";
+CM_ SG_ 1104 FC_Obj1_HeadingAngle "目标1方位角";
+CM_ SG_ 1104 FC_Obj1_HeadingAngle_Vnce "目标1方位角方差";
+CM_ SG_ 1104 FC_Obj1_WorldinfoYaw "目标1航向角";
+CM_ SG_ 1104 FC_Obj1_WorldinfoYaw_Vnce "目标1航向角方差";
+CM_ SG_ 1104 FC_Obj1_AbsVx "目标1纵向绝对速度";
+CM_ SG_ 1104 FC_Obj1_AbsVy "目标1横向绝对速度";
+CM_ SG_ 1104 FC_Obj1_CutInFlag "目标1 cutin标识";
+CM_ SG_ 1104 FC_Obj1_CornerPoint_x "目标1 cutin角点纵向距离";
+CM_ SG_ 1104 FC_Obj1_CornerPoint_y "目标1 cutin角点横向距离";
+CM_ SG_ 1104 FC_Obj1_CutInLane "目标1 cutIn车道线状态";
+CM_ SG_ 1104 FC_Obj1_DistInLane "目标1 cutin横向压线量";
+CM_ SG_ 1104 FC_RollingCounter_450 "450报文的计数器";
+CM_ SG_ 1104 FC_CRCChecksum_450 "450报文的校验和";
+CM_ SG_ 1105 FC_Obj2_Track_ID "目标2 ID";
+CM_ SG_ 1105 FC_Obj2_Valid "目标2有效性";
+CM_ SG_ 1105 FC_Obj2_Track_Age "目标2跟踪周期";
+CM_ SG_ 1105 FC_Obj2_Confidence "目标2存在的置信度";
+CM_ SG_ 1105 FC_Obj2_MotionCategory "目标2的运动类别";
+CM_ SG_ 1105 FC_Obj2_MotionType "目标2的运动状态";
+CM_ SG_ 1105 FC_Obj2_MeasureStatus "目标2的测量状态";
+CM_ SG_ 1105 FC_Obj2_Class "目标2的类别";
+CM_ SG_ 1105 FC_Obj2_VehSubType "目标2为车辆时的子类别";
+CM_ SG_ 1105 FC_Obj2_PedSubType "目标2为行人时的子类别";
+CM_ SG_ 1105 FC_Obj2_LaneAssignment "目标2与车道线的关系";
+CM_ SG_ 1105 FC_Obj2_Height "目标2高度";
+CM_ SG_ 1105 FC_Obj2_Height_Vnce "目标2高度方差";
+CM_ SG_ 1105 FC_Obj2_Length "目标2长度";
+CM_ SG_ 1105 FC_Obj2_Length_Vnce "目标2长度方差";
+CM_ SG_ 1105 FC_Obj2_Width "目标2宽度";
+CM_ SG_ 1105 FC_Obj2_Width_Vnce "目标2宽度方差";
+CM_ SG_ 1105 FC_Obj2_TurnLight "目标2的转向灯信息";
+CM_ SG_ 1105 FC_Obj2_Brakelight_Info "目标2刹车灯信息";
+CM_ SG_ 1105 FC_Obj2_TTC "目标2的TTC";
+CM_ SG_ 1105 FC_Obj2_Dx "目标2纵向距离";
+CM_ SG_ 1105 FC_Obj2_Dx_STD "目标2纵向距离标准差";
+CM_ SG_ 1105 FC_Obj2_Dy "目标2横向距离";
+CM_ SG_ 1105 FC_Obj2_Dy_STD "目标2横向距离标准差";
+CM_ SG_ 1105 FC_Obj2_RelVx "目标2纵向相对速度";
+CM_ SG_ 1105 FC_Obj2_RelVx_STD "目标2纵向相对速度标准差";
+CM_ SG_ 1105 FC_Obj2_RelVy "目标2横向相对速度";
+CM_ SG_ 1105 FC_Obj2_RelVy_STD "目标2横向相对速度标准差";
+CM_ SG_ 1105 FC_Obj2_RelAx "目标2纵向相对加速度";
+CM_ SG_ 1105 FC_Obj2_RelAx_STD "目标2纵向相对加速度标准差";
+CM_ SG_ 1105 FC_Obj2_RelAy "目标2横向相对加速度";
+CM_ SG_ 1105 FC_Obj2_RelAy_STD "目标2横向相对加速度标准差";
+CM_ SG_ 1105 FC_Obj2_HeadingAngle "目标2方位角";
+CM_ SG_ 1105 FC_Obj2_HeadingAngle_Vnce "目标2方位角方差";
+CM_ SG_ 1105 FC_Obj2_WorldinfoYaw "目标2航向角";
+CM_ SG_ 1105 FC_Obj2_WorldinfoYaw_Vnce "目标2航向角方差";
+CM_ SG_ 1105 FC_Obj2_AbsVx "目标2纵向绝对速度";
+CM_ SG_ 1105 FC_Obj2_AbsVy "目标2横向绝对速度";
+CM_ SG_ 1105 FC_Obj2_CutInFlag "目标2 cutin标识";
+CM_ SG_ 1105 FC_Obj2_CornerPoint_x "目标2 cutin角点纵向距离";
+CM_ SG_ 1105 FC_Obj2_CornerPoint_y "目标2 cutin角点横向距离";
+CM_ SG_ 1105 FC_Obj2_CutInLane "目标2 cutIn车道线状态";
+CM_ SG_ 1105 FC_Obj2_DistInLane "目标2 cutin横向压线量";
+CM_ SG_ 1105 FC_RollingCounter_451 "451报文的计数器";
+CM_ SG_ 1105 FC_CRCChecksum_451 "451报文的校验和";
+CM_ SG_ 1106 FC_Obj3_Track_ID "目标3 ID";
+CM_ SG_ 1106 FC_Obj3_Valid "目标3有效性";
+CM_ SG_ 1106 FC_Obj3_Track_Age "目标3跟踪周期";
+CM_ SG_ 1106 FC_Obj3_Confidence "目标3存在的置信度";
+CM_ SG_ 1106 FC_Obj3_MotionCategory "目标3的运动类别";
+CM_ SG_ 1106 FC_Obj3_MotionType "目标3的运动状态";
+CM_ SG_ 1106 FC_Obj3_MeasureStatus "目标3的测量状态";
+CM_ SG_ 1106 FC_Obj3_Class "目标3的类别";
+CM_ SG_ 1106 FC_Obj3_VehSubType "目标3为车辆时的子类别";
+CM_ SG_ 1106 FC_Obj3_PedSubType "目标3为行人时的子类别";
+CM_ SG_ 1106 FC_Obj3_LaneAssignment "目标3与车道线的关系";
+CM_ SG_ 1106 FC_Obj3_Height "目标3高度";
+CM_ SG_ 1106 FC_Obj3_Height_Vnce "目标3高度方差";
+CM_ SG_ 1106 FC_Obj3_Length "目标3长度";
+CM_ SG_ 1106 FC_Obj3_Length_Vnce "目标3长度方差";
+CM_ SG_ 1106 FC_Obj3_Width "目标3宽度";
+CM_ SG_ 1106 FC_Obj3_Width_Vnce "目标3宽度方差";
+CM_ SG_ 1106 FC_Obj3_TurnLight "目标3的转向灯信息";
+CM_ SG_ 1106 FC_Obj3_Brakelight_Info "目标3刹车灯信息";
+CM_ SG_ 1106 FC_Obj3_TTC "目标3的TTC";
+CM_ SG_ 1106 FC_Obj3_Dx "目标3纵向距离";
+CM_ SG_ 1106 FC_Obj3_Dx_STD "目标3纵向距离标准差";
+CM_ SG_ 1106 FC_Obj3_Dy "目标3横向距离";
+CM_ SG_ 1106 FC_Obj3_Dy_STD "目标3横向距离标准差";
+CM_ SG_ 1106 FC_Obj3_RelVx "目标3纵向相对速度";
+CM_ SG_ 1106 FC_Obj3_RelVx_STD "目标3纵向相对速度标准差";
+CM_ SG_ 1106 FC_Obj3_RelVy "目标3横向相对速度";
+CM_ SG_ 1106 FC_Obj3_RelVy_STD "目标3横向相对速度标准差";
+CM_ SG_ 1106 FC_Obj3_RelAx "目标3纵向相对加速度";
+CM_ SG_ 1106 FC_Obj3_RelAx_STD "目标3纵向相对加速度标准差";
+CM_ SG_ 1106 FC_Obj3_RelAy "目标3横向相对加速度";
+CM_ SG_ 1106 FC_Obj3_RelAy_STD "目标3横向相对加速度标准差";
+CM_ SG_ 1106 FC_Obj3_HeadingAngle "目标3方位角";
+CM_ SG_ 1106 FC_Obj3_HeadingAngle_Vnce "目标3方位角方差";
+CM_ SG_ 1106 FC_Obj3_WorldinfoYaw "目标3航向角";
+CM_ SG_ 1106 FC_Obj3_WorldinfoYaw_Vnce "目标3航向角方差";
+CM_ SG_ 1106 FC_Obj3_AbsVx "目标3纵向绝对速度";
+CM_ SG_ 1106 FC_Obj3_AbsVy "目标3横向绝对速度";
+CM_ SG_ 1106 FC_Obj3_CutInFlag "目标3 cutin标识";
+CM_ SG_ 1106 FC_Obj3_CornerPoint_x "目标3 cutin角点纵向距离";
+CM_ SG_ 1106 FC_Obj3_CornerPoint_y "目标3 cutin角点横向距离";
+CM_ SG_ 1106 FC_Obj3_CutInLane "目标3 cutIn车道线状态";
+CM_ SG_ 1106 FC_Obj3_DistInLane "目标3 cutin横向压线量";
+CM_ SG_ 1106 FC_RollingCounter_452 "452报文的计数器";
+CM_ SG_ 1106 FC_CRCChecksum_452 "452报文的校验和";
+CM_ SG_ 1107 FC_Obj4_Track_ID "目标4 ID";
+CM_ SG_ 1107 FC_Obj4_Valid "目标4有效性";
+CM_ SG_ 1107 FC_Obj4_Track_Age "目标4跟踪周期";
+CM_ SG_ 1107 FC_Obj4_Confidence "目标4存在的置信度";
+CM_ SG_ 1107 FC_Obj4_MotionCategory "目标4的运动类别";
+CM_ SG_ 1107 FC_Obj4_MotionType "目标4的运动状态";
+CM_ SG_ 1107 FC_Obj4_MeasureStatus "目标4的测量状态";
+CM_ SG_ 1107 FC_Obj4_Class "目标4的类别";
+CM_ SG_ 1107 FC_Obj4_VehSubType "目标4为车辆时的子类别";
+CM_ SG_ 1107 FC_Obj4_PedSubType "目标4为行人时的子类别";
+CM_ SG_ 1107 FC_Obj4_LaneAssignment "目标4与车道线的关系";
+CM_ SG_ 1107 FC_Obj4_Height "目标4高度";
+CM_ SG_ 1107 FC_Obj4_Height_Vnce "目标4高度方差";
+CM_ SG_ 1107 FC_Obj4_Length "目标4长度";
+CM_ SG_ 1107 FC_Obj4_Length_Vnce "目标4长度方差";
+CM_ SG_ 1107 FC_Obj4_Width "目标4宽度";
+CM_ SG_ 1107 FC_Obj4_Width_Vnce "目标4宽度方差";
+CM_ SG_ 1107 FC_Obj4_TurnLight "目标4的转向灯信息";
+CM_ SG_ 1107 FC_Obj4_Brakelight_Info "目标4刹车灯信息";
+CM_ SG_ 1107 FC_Obj4_TTC "目标4的TTC";
+CM_ SG_ 1107 FC_Obj4_Dx "目标4纵向距离";
+CM_ SG_ 1107 FC_Obj4_Dx_STD "目标4纵向距离标准差";
+CM_ SG_ 1107 FC_Obj4_Dy "目标4横向距离";
+CM_ SG_ 1107 FC_Obj4_Dy_STD "目标4横向距离标准差";
+CM_ SG_ 1107 FC_Obj4_RelVx "目标4纵向相对速度";
+CM_ SG_ 1107 FC_Obj4_RelVx_STD "目标4纵向相对速度标准差";
+CM_ SG_ 1107 FC_Obj4_RelVy "目标4横向相对速度";
+CM_ SG_ 1107 FC_Obj4_RelVy_STD "目标4横向相对速度标准差";
+CM_ SG_ 1107 FC_Obj4_RelAx "目标4纵向相对加速度";
+CM_ SG_ 1107 FC_Obj4_RelAx_STD "目标4纵向相对加速度标准差";
+CM_ SG_ 1107 FC_Obj4_RelAy "目标4横向相对加速度";
+CM_ SG_ 1107 FC_Obj4_RelAy_STD "目标4横向相对加速度标准差";
+CM_ SG_ 1107 FC_Obj4_HeadingAngle "目标4方位角";
+CM_ SG_ 1107 FC_Obj4_HeadingAngle_Vnce "目标4方位角方差";
+CM_ SG_ 1107 FC_Obj4_WorldinfoYaw "目标4航向角";
+CM_ SG_ 1107 FC_Obj4_WorldinfoYaw_Vnce "目标4航向角方差";
+CM_ SG_ 1107 FC_Obj4_AbsVx "目标4纵向绝对速度";
+CM_ SG_ 1107 FC_Obj4_AbsVy "目标4横向绝对速度";
+CM_ SG_ 1107 FC_Obj4_CutInFlag "目标4 cutin标识";
+CM_ SG_ 1107 FC_Obj4_CornerPoint_x "目标4 cutin角点纵向距离";
+CM_ SG_ 1107 FC_Obj4_CornerPoint_y "目标4 cutin角点横向距离";
+CM_ SG_ 1107 FC_Obj4_CutInLane "目标4 cutIn车道线状态";
+CM_ SG_ 1107 FC_Obj4_DistInLane "目标4 cutin横向压线量";
+CM_ SG_ 1107 FC_RollingCounter_453 "453报文的计数器";
+CM_ SG_ 1107 FC_CRCChecksum_453 "453报文的校验和";
+CM_ SG_ 1108 FC_Obj5_Track_ID "目标5 ID";
+CM_ SG_ 1108 FC_Obj5_Valid "目标5有效性";
+CM_ SG_ 1108 FC_Obj5_Track_Age "目标5跟踪周期";
+CM_ SG_ 1108 FC_Obj5_Confidence "目标5存在的置信度";
+CM_ SG_ 1108 FC_Obj5_MotionCategory "目标5的运动类别";
+CM_ SG_ 1108 FC_Obj5_MotionType "目标5的运动状态";
+CM_ SG_ 1108 FC_Obj5_MeasureStatus "目标5的测量状态";
+CM_ SG_ 1108 FC_Obj5_Class "目标5的类别";
+CM_ SG_ 1108 FC_Obj5_VehSubType "目标5为车辆时的子类别";
+CM_ SG_ 1108 FC_Obj5_PedSubType "目标5为行人时的子类别";
+CM_ SG_ 1108 FC_Obj5_LaneAssignment "目标5与车道线的关系";
+CM_ SG_ 1108 FC_Obj5_Height "目标5高度";
+CM_ SG_ 1108 FC_Obj5_Height_Vnce "目标5高度方差";
+CM_ SG_ 1108 FC_Obj5_Length "目标5长度";
+CM_ SG_ 1108 FC_Obj5_Length_Vnce "目标5长度方差";
+CM_ SG_ 1108 FC_Obj5_Width "目标5宽度";
+CM_ SG_ 1108 FC_Obj5_Width_Vnce "目标5宽度方差";
+CM_ SG_ 1108 FC_Obj5_TurnLight "目标5的转向灯信息";
+CM_ SG_ 1108 FC_Obj5_Brakelight_Info "目标5刹车灯信息";
+CM_ SG_ 1108 FC_Obj5_TTC "目标5的TTC";
+CM_ SG_ 1108 FC_Obj5_Dx "目标5纵向距离";
+CM_ SG_ 1108 FC_Obj5_Dx_STD "目标5纵向距离标准差";
+CM_ SG_ 1108 FC_Obj5_Dy "目标5横向距离";
+CM_ SG_ 1108 FC_Obj5_Dy_STD "目标5横向距离标准差";
+CM_ SG_ 1108 FC_Obj5_RelVx "目标5纵向相对速度";
+CM_ SG_ 1108 FC_Obj5_RelVx_STD "目标5纵向相对速度标准差";
+CM_ SG_ 1108 FC_Obj5_RelVy "目标5横向相对速度";
+CM_ SG_ 1108 FC_Obj5_RelVy_STD "目标5横向相对速度标准差";
+CM_ SG_ 1108 FC_Obj5_RelAx "目标5纵向相对加速度";
+CM_ SG_ 1108 FC_Obj5_RelAx_STD "目标5纵向相对加速度标准差";
+CM_ SG_ 1108 FC_Obj5_RelAy "目标5横向相对加速度";
+CM_ SG_ 1108 FC_Obj5_RelAy_STD "目标5横向相对加速度标准差";
+CM_ SG_ 1108 FC_Obj5_HeadingAngle "目标5方位角";
+CM_ SG_ 1108 FC_Obj5_HeadingAngle_Vnce "目标4方位角方差";
+CM_ SG_ 1108 FC_Obj5_WorldinfoYaw "目标5航向角";
+CM_ SG_ 1108 FC_Obj5_WorldinfoYaw_Vnce "目标5航向角方差";
+CM_ SG_ 1108 FC_Obj5_AbsVx "目标5纵向绝对速度";
+CM_ SG_ 1108 FC_Obj5_AbsVy "目标5横向绝对速度";
+CM_ SG_ 1108 FC_Obj5_CutInFlag "目标5 cutin标识";
+CM_ SG_ 1108 FC_Obj5_CornerPoint_x "目标5 cutin角点纵向距离";
+CM_ SG_ 1108 FC_Obj5_CornerPoint_y "目标5 cutin角点横向距离";
+CM_ SG_ 1108 FC_Obj5_CutInLane "目标5 cutIn车道线状态";
+CM_ SG_ 1108 FC_Obj5_DistInLane "目标5 cutin横向压线量";
+CM_ SG_ 1108 FC_RollingCounter_454 "454报文的计数器";
+CM_ SG_ 1108 FC_CRCChecksum_454 "454报文的校验和";
+CM_ SG_ 1109 FC_Obj6_Track_ID "目标6 ID";
+CM_ SG_ 1109 FC_Obj6_Valid "目标6有效性";
+CM_ SG_ 1109 FC_Obj6_Track_Age "目标6跟踪周期";
+CM_ SG_ 1109 FC_Obj6_Confidence "目标6存在的置信度";
+CM_ SG_ 1109 FC_Obj6_MotionCategory "目标6的运动类别";
+CM_ SG_ 1109 FC_Obj6_MotionType "目标6的运动状态";
+CM_ SG_ 1109 FC_Obj6_MeasureStatus "目标6的测量状态";
+CM_ SG_ 1109 FC_Obj6_Class "目标6的类别";
+CM_ SG_ 1109 FC_Obj6_VehSubType "目标6为车辆时的子类别";
+CM_ SG_ 1109 FC_Obj6_PedSubType "目标6为行人时的子类别";
+CM_ SG_ 1109 FC_Obj6_LaneAssignment "目标6与车道线的关系";
+CM_ SG_ 1109 FC_Obj6_Height "目标6高度";
+CM_ SG_ 1109 FC_Obj6_Height_Vnce "目标6高度方差";
+CM_ SG_ 1109 FC_Obj6_Length "目标6长度";
+CM_ SG_ 1109 FC_Obj6_Length_Vnce "目标6长度方差";
+CM_ SG_ 1109 FC_Obj6_Width "目标6宽度";
+CM_ SG_ 1109 FC_Obj6_Width_Vnce "目标6宽度方差";
+CM_ SG_ 1109 FC_Obj6_TurnLight "目标6的转向灯信息";
+CM_ SG_ 1109 FC_Obj6_Brakelight_Info "目标6刹车灯信息";
+CM_ SG_ 1109 FC_Obj6_TTC "目标6的TTC";
+CM_ SG_ 1109 FC_Obj6_Dx "目标6纵向距离";
+CM_ SG_ 1109 FC_Obj6_Dx_STD "目标6纵向距离标准差";
+CM_ SG_ 1109 FC_Obj6_Dy "目标6横向距离";
+CM_ SG_ 1109 FC_Obj6_Dy_STD "目标6横向距离标准差";
+CM_ SG_ 1109 FC_Obj6_RelVx "目标6纵向相对速度";
+CM_ SG_ 1109 FC_Obj6_RelVx_STD "目标6纵向相对速度标准差";
+CM_ SG_ 1109 FC_Obj6_RelVy "目标6横向相对速度";
+CM_ SG_ 1109 FC_Obj6_RelVy_STD "目标6横向相对速度标准差";
+CM_ SG_ 1109 FC_Obj6_RelAx "目标6纵向相对加速度";
+CM_ SG_ 1109 FC_Obj6_RelAx_STD "目标6纵向相对加速度标准差";
+CM_ SG_ 1109 FC_Obj6_RelAy "目标6横向相对加速度";
+CM_ SG_ 1109 FC_Obj6_RelAy_STD "目标6横向相对加速度标准差";
+CM_ SG_ 1109 FC_Obj6_HeadingAngle "目标6方位角";
+CM_ SG_ 1109 FC_Obj6_HeadingAngle_Vnce "目标6方位角方差";
+CM_ SG_ 1109 FC_Obj6_WorldinfoYaw "目标6航向角";
+CM_ SG_ 1109 FC_Obj6_WorldinfoYaw_Vnce "目标6航向角方差";
+CM_ SG_ 1109 FC_Obj6_AbsVx "目标6纵向绝对速度";
+CM_ SG_ 1109 FC_Obj6_AbsVy "目标6横向绝对速度";
+CM_ SG_ 1109 FC_Obj6_CutInFlag "目标6 cutin标识";
+CM_ SG_ 1109 FC_Obj6_CornerPoint_x "目标6 cutin角点纵向距离";
+CM_ SG_ 1109 FC_Obj6_CornerPoint_y "目标6 cutin角点横向距离";
+CM_ SG_ 1109 FC_Obj6_CutInLane "目标6 cutIn车道线状态";
+CM_ SG_ 1109 FC_Obj6_DistInLane "目标6 cutin横向压线量";
+CM_ SG_ 1109 FC_RollingCounter_455 "455报文的计数器";
+CM_ SG_ 1109 FC_CRCChecksum_455 "455报文的校验和";
+CM_ SG_ 1110 FC_Obj7_Track_ID "目标7 ID";
+CM_ SG_ 1110 FC_Obj7_Valid "目标7有效性";
+CM_ SG_ 1110 FC_Obj7_Track_Age "目标7跟踪周期";
+CM_ SG_ 1110 FC_Obj7_Confidence "目标7存在的置信度";
+CM_ SG_ 1110 FC_Obj7_MotionCategory "目标7的运动类别";
+CM_ SG_ 1110 FC_Obj7_MotionType "目标7的运动状态";
+CM_ SG_ 1110 FC_Obj7_MeasureStatus "目标7的测量状态";
+CM_ SG_ 1110 FC_Obj7_Class "目标7的类别";
+CM_ SG_ 1110 FC_Obj7_VehSubType "目标7为车辆时的子类别";
+CM_ SG_ 1110 FC_Obj7_PedSubType "目标7为行人时的子类别";
+CM_ SG_ 1110 FC_Obj7_LaneAssignment "目标7与车道线的关系";
+CM_ SG_ 1110 FC_Obj7_Height "目标7高度";
+CM_ SG_ 1110 FC_Obj7_Height_Vnce "目标7高度方差";
+CM_ SG_ 1110 FC_Obj7_Length "目标7长度";
+CM_ SG_ 1110 FC_Obj7_Length_Vnce "目标7长度方差";
+CM_ SG_ 1110 FC_Obj7_Width "目标7宽度";
+CM_ SG_ 1110 FC_Obj7_Width_Vnce "目标7宽度方差";
+CM_ SG_ 1110 FC_Obj7_TurnLight "目标7的转向灯信息";
+CM_ SG_ 1110 FC_Obj7_Brakelight_Info "目标7刹车灯信息";
+CM_ SG_ 1110 FC_Obj7_TTC "目标7的TTC";
+CM_ SG_ 1110 FC_Obj7_Dx "目标7纵向距离";
+CM_ SG_ 1110 FC_Obj7_Dx_STD "目标7纵向距离标准差";
+CM_ SG_ 1110 FC_Obj7_Dy "目标7横向距离";
+CM_ SG_ 1110 FC_Obj7_Dy_STD "目标7横向距离标准差";
+CM_ SG_ 1110 FC_Obj7_RelVx "目标7纵向相对速度";
+CM_ SG_ 1110 FC_Obj7_RelVx_STD "目标7纵向相对速度标准差";
+CM_ SG_ 1110 FC_Obj7_RelVy "目标7横向相对速度";
+CM_ SG_ 1110 FC_Obj7_RelVy_STD "目标7横向相对速度标准差";
+CM_ SG_ 1110 FC_Obj7_RelAx "目标7纵向相对加速度";
+CM_ SG_ 1110 FC_Obj7_RelAx_STD "目标7纵向相对加速度标准差";
+CM_ SG_ 1110 FC_Obj7_RelAy "目标7横向相对加速度";
+CM_ SG_ 1110 FC_Obj7_RelAy_STD "目标7横向相对加速度标准差";
+CM_ SG_ 1110 FC_Obj7_HeadingAngle "目标7方位角";
+CM_ SG_ 1110 FC_Obj7_HeadingAngle_Vnce "目标7方位角方差";
+CM_ SG_ 1110 FC_Obj7_WorldinfoYaw "目标7航向角";
+CM_ SG_ 1110 FC_Obj7_WorldinfoYaw_Vnce "目标7航向角方差";
+CM_ SG_ 1110 FC_Obj7_AbsVx "目标7纵向绝对速度";
+CM_ SG_ 1110 FC_Obj7_AbsVy "目标7横向绝对速度";
+CM_ SG_ 1110 FC_Obj7_CutInFlag "目标7 cutin标识";
+CM_ SG_ 1110 FC_Obj7_CornerPoint_x "目标7 cutin角点纵向距离";
+CM_ SG_ 1110 FC_Obj7_CornerPoint_y "目标7 cutin角点横向距离";
+CM_ SG_ 1110 FC_Obj7_CutInLane "目标7 cutIn车道线状态";
+CM_ SG_ 1110 FC_Obj7_DistInLane "目标7 cutin横向压线量";
+CM_ SG_ 1110 FC_RollingCounter_456 "456报文的计数器";
+CM_ SG_ 1110 FC_CRCChecksum_456 "456报文的校验和";
+CM_ SG_ 1111 FC_Obj8_Track_ID "目标8 ID";
+CM_ SG_ 1111 FC_Obj8_Valid "目标8有效性";
+CM_ SG_ 1111 FC_Obj8_Track_Age "目标8跟踪周期";
+CM_ SG_ 1111 FC_Obj8_Confidence "目标8存在的置信度";
+CM_ SG_ 1111 FC_Obj8_MotionCategory "目标8的运动类别";
+CM_ SG_ 1111 FC_Obj8_MotionType "目标8的运动状态";
+CM_ SG_ 1111 FC_Obj8_MeasureStatus "目标8的测量状态";
+CM_ SG_ 1111 FC_Obj8_Class "目标8的类别";
+CM_ SG_ 1111 FC_Obj8_VehSubType "目标8为车辆时的子类别";
+CM_ SG_ 1111 FC_Obj8_PedSubType "目标8为行人时的子类别";
+CM_ SG_ 1111 FC_Obj8_LaneAssignment "目标8与车道线的关系";
+CM_ SG_ 1111 FC_Obj8_Height "目标8高度";
+CM_ SG_ 1111 FC_Obj8_Height_Vnce "目标8高度方差";
+CM_ SG_ 1111 FC_Obj8_Length "目标8长度";
+CM_ SG_ 1111 FC_Obj8_Length_Vnce "目标8长度方差";
+CM_ SG_ 1111 FC_Obj8_Width "目标8宽度";
+CM_ SG_ 1111 FC_Obj8_Width_Vnce "目标8宽度方差";
+CM_ SG_ 1111 FC_Obj8_TurnLight "目标8的转向灯信息";
+CM_ SG_ 1111 FC_Obj8_Brakelight_Info "目标8刹车灯信息";
+CM_ SG_ 1111 FC_Obj8_TTC "目标8的TTC";
+CM_ SG_ 1111 FC_Obj8_Dx "目标8纵向距离";
+CM_ SG_ 1111 FC_Obj8_Dx_STD "目标8纵向距离标准差";
+CM_ SG_ 1111 FC_Obj8_Dy "目标8横向距离";
+CM_ SG_ 1111 FC_Obj8_Dy_STD "目标8横向距离标准差";
+CM_ SG_ 1111 FC_Obj8_RelVx "目标8纵向相对速度";
+CM_ SG_ 1111 FC_Obj8_RelVx_STD "目标8纵向相对速度标准差";
+CM_ SG_ 1111 FC_Obj8_RelVy "目标8横向相对速度";
+CM_ SG_ 1111 FC_Obj8_RelVy_STD "目标8横向相对速度标准差";
+CM_ SG_ 1111 FC_Obj8_RelAx "目标8纵向相对加速度";
+CM_ SG_ 1111 FC_Obj8_RelAx_STD "目标8纵向相对加速度标准差";
+CM_ SG_ 1111 FC_Obj8_RelAy "目标8横向相对加速度";
+CM_ SG_ 1111 FC_Obj8_RelAy_STD "目标8横向相对加速度标准差";
+CM_ SG_ 1111 FC_Obj8_HeadingAngle "目标8方位角";
+CM_ SG_ 1111 FC_Obj8_HeadingAngle_Vnce "目标8方位角方差";
+CM_ SG_ 1111 FC_Obj8_WorldinfoYaw "目标8航向角";
+CM_ SG_ 1111 FC_Obj8_WorldinfoYaw_Vnce "目标8航向角方差";
+CM_ SG_ 1111 FC_Obj8_AbsVx "目标8纵向绝对速度";
+CM_ SG_ 1111 FC_Obj8_AbsVy "目标8横向绝对速度";
+CM_ SG_ 1111 FC_Obj8_CutInFlag "目标8 cutin标识";
+CM_ SG_ 1111 FC_Obj8_CornerPoint_x "目标8 cutin角点纵向距离";
+CM_ SG_ 1111 FC_Obj8_CornerPoint_y "目标8 cutin角点横向距离";
+CM_ SG_ 1111 FC_Obj8_CutInLane "目标8 cutIn车道线状态";
+CM_ SG_ 1111 FC_Obj8_DistInLane "目标8 cutin横向压线量";
+CM_ SG_ 1111 FC_RollingCounter_457 "457报文的计数器";
+CM_ SG_ 1111 FC_CRCChecksum_457 "457报文的校验和";
+CM_ SG_ 1112 FC_Obj9_Track_ID "目标9 ID";
+CM_ SG_ 1112 FC_Obj9_Valid "目标9有效性";
+CM_ SG_ 1112 FC_Obj9_Track_Age "目标9跟踪周期";
+CM_ SG_ 1112 FC_Obj9_Confidence "目标9存在的置信度";
+CM_ SG_ 1112 FC_Obj9_MotionCategory "目标9的运动类别";
+CM_ SG_ 1112 FC_Obj9_MotionType "目标9的运动状态";
+CM_ SG_ 1112 FC_Obj9_MeasureStatus "目标9的测量状态";
+CM_ SG_ 1112 FC_Obj9_Class "目标9的类别";
+CM_ SG_ 1112 FC_Obj9_VehSubType "目标9为车辆时的子类别";
+CM_ SG_ 1112 FC_Obj9_PedSubType "目标9为行人时的子类别";
+CM_ SG_ 1112 FC_Obj9_LaneAssignment "目标9与车道线的关系";
+CM_ SG_ 1112 FC_Obj9_Height "目标9高度";
+CM_ SG_ 1112 FC_Obj9_Height_Vnce "目标9高度方差";
+CM_ SG_ 1112 FC_Obj9_Length "目标9长度";
+CM_ SG_ 1112 FC_Obj9_Length_Vnce "目标9长度方差";
+CM_ SG_ 1112 FC_Obj9_Width "目标9宽度";
+CM_ SG_ 1112 FC_Obj9_Width_Vnce "目标9宽度方差";
+CM_ SG_ 1112 FC_Obj9_TurnLight "目标9的转向灯信息";
+CM_ SG_ 1112 FC_Obj9_Brakelight_Info "目标9刹车灯信息";
+CM_ SG_ 1112 FC_Obj9_TTC "目标9的TTC";
+CM_ SG_ 1112 FC_Obj9_Dx "目标9纵向距离";
+CM_ SG_ 1112 FC_Obj9_Dx_STD "目标9纵向距离标准差";
+CM_ SG_ 1112 FC_Obj9_Dy "目标9横向距离";
+CM_ SG_ 1112 FC_Obj9_Dy_STD "目标9横向距离标准差";
+CM_ SG_ 1112 FC_Obj9_RelVx "目标9纵向相对速度";
+CM_ SG_ 1112 FC_Obj9_RelVx_STD "目标9纵向相对速度标准差";
+CM_ SG_ 1112 FC_Obj9_RelVy "目标9横向相对速度";
+CM_ SG_ 1112 FC_Obj9_RelVy_STD "目标9横向相对速度标准差";
+CM_ SG_ 1112 FC_Obj9_RelAx "目标9纵向相对加速度";
+CM_ SG_ 1112 FC_Obj9_RelAx_STD "目标9纵向相对加速度标准差";
+CM_ SG_ 1112 FC_Obj9_RelAy "目标9横向相对加速度";
+CM_ SG_ 1112 FC_Obj9_RelAy_STD "目标9横向相对加速度标准差";
+CM_ SG_ 1112 FC_Obj9_HeadingAngle "目标9方位角";
+CM_ SG_ 1112 FC_Obj9_HeadingAngle_Vnce "目标9方位角方差";
+CM_ SG_ 1112 FC_Obj9_WorldinfoYaw "目标9航向角";
+CM_ SG_ 1112 FC_Obj9_WorldinfoYaw_Vnce "目标9航向角方差";
+CM_ SG_ 1112 FC_Obj9_AbsVx "目标9纵向绝对速度";
+CM_ SG_ 1112 FC_Obj9_AbsVy "目标9横向绝对速度";
+CM_ SG_ 1112 FC_Obj9_CutInFlag "目标9 cutin标识";
+CM_ SG_ 1112 FC_Obj9_CornerPoint_x "目标9 cutin角点纵向距离";
+CM_ SG_ 1112 FC_Obj9_CornerPoint_y "目标9 cutin角点横向距离";
+CM_ SG_ 1112 FC_Obj9_CutInLane "目标9 cutIn车道线状态";
+CM_ SG_ 1112 FC_Obj9_DistInLane "目标9 cutin横向压线量";
+CM_ SG_ 1112 FC_RollingCounter_458 "458报文的计数器";
+CM_ SG_ 1112 FC_CRCChecksum_458 "458报文的校验和";
+CM_ SG_ 1113 FC_Obj10_Track_ID "目标10 ID";
+CM_ SG_ 1113 FC_Obj10_Valid "目标10有效性";
+CM_ SG_ 1113 FC_Obj10_Track_Age "目标10跟踪周期";
+CM_ SG_ 1113 FC_Obj10_Confidence "目标10存在的置信度";
+CM_ SG_ 1113 FC_Obj10_MotionCategory "目标10的运动类别";
+CM_ SG_ 1113 FC_Obj10_MotionType "目标10的运动状态";
+CM_ SG_ 1113 FC_Obj10_MeasureStatus "目标10的测量状态";
+CM_ SG_ 1113 FC_Obj10_Class "目标10的类别";
+CM_ SG_ 1113 FC_Obj10_VehSubType "目标10为车辆时的子类别";
+CM_ SG_ 1113 FC_Obj10_PedSubType "目标10为行人时的子类别";
+CM_ SG_ 1113 FC_Obj10_LaneAssignment "目标10与车道线的关系";
+CM_ SG_ 1113 FC_Obj10_Height "目标10高度";
+CM_ SG_ 1113 FC_Obj10_Height_Vnce "目标10高度方差";
+CM_ SG_ 1113 FC_Obj10_Length "目标10长度";
+CM_ SG_ 1113 FC_Obj10_Length_Vnce "目标10长度方差";
+CM_ SG_ 1113 FC_Obj10_Width "目标10宽度";
+CM_ SG_ 1113 FC_Obj10_Width_Vnce "目标10宽度方差";
+CM_ SG_ 1113 FC_Obj10_TurnLight "目标10的转向灯信息";
+CM_ SG_ 1113 FC_Obj10_Brakelight_Info "目标10刹车灯信息";
+CM_ SG_ 1113 FC_Obj10_TTC "目标10的TTC";
+CM_ SG_ 1113 FC_Obj10_Dx "目标10纵向距离";
+CM_ SG_ 1113 FC_Obj10_Dx_STD "目标10纵向距离标准差";
+CM_ SG_ 1113 FC_Obj10_Dy "目标10横向距离";
+CM_ SG_ 1113 FC_Obj10_Dy_STD "目标10横向距离标准差";
+CM_ SG_ 1113 FC_Obj10_RelVx "目标10纵向相对速度";
+CM_ SG_ 1113 FC_Obj10_RelVx_STD "目标10纵向相对速度标准差";
+CM_ SG_ 1113 FC_Obj10_RelVy "目标10横向相对速度";
+CM_ SG_ 1113 FC_Obj10_RelVy_STD "目标10横向相对速度标准差";
+CM_ SG_ 1113 FC_Obj10_RelAx "目标10纵向相对加速度";
+CM_ SG_ 1113 FC_Obj10_RelAx_STD "目标10纵向相对加速度标准差";
+CM_ SG_ 1113 FC_Obj10_RelAy "目标10横向相对加速度";
+CM_ SG_ 1113 FC_Obj10_RelAy_STD "目标10横向相对加速度标准差";
+CM_ SG_ 1113 FC_Obj10_HeadingAngle "目标10方位角";
+CM_ SG_ 1113 FC_Obj10_HeadingAngle_Vnce "目标10方位角方差";
+CM_ SG_ 1113 FC_Obj10_WorldinfoYaw "目标10航向角";
+CM_ SG_ 1113 FC_Obj10_WorldinfoYaw_Vnce "目标10航向角方差";
+CM_ SG_ 1113 FC_Obj10_AbsVx "目标10纵向绝对速度";
+CM_ SG_ 1113 FC_Obj10_AbsVy "目标10横向绝对速度";
+CM_ SG_ 1113 FC_Obj10_CutInFlag "目标10 cutin标识";
+CM_ SG_ 1113 FC_Obj10_CornerPoint_x "目标10 cutin角点纵向距离";
+CM_ SG_ 1113 FC_Obj10_CornerPoint_y "目标10 cutin角点横向距离";
+CM_ SG_ 1113 FC_Obj10_CutInLane "目标10 cutIn车道线状态";
+CM_ SG_ 1113 FC_Obj10_DistInLane "目标10 cutin横向压线量";
+CM_ SG_ 1113 FC_RollingCounter_459 "459报文的计数器";
+CM_ SG_ 1113 FC_CRCChecksum_459 "459报文的校验和";
+CM_ SG_ 1114 FC_Obj11_Track_ID "目标11 ID";
+CM_ SG_ 1114 FC_Obj11_Valid "目标11有效性";
+CM_ SG_ 1114 FC_Obj11_Track_Age "目标11跟踪周期";
+CM_ SG_ 1114 FC_Obj11_Confidence "目标11存在的置信度";
+CM_ SG_ 1114 FC_Obj11_MotionCategory "目标11的运动类别";
+CM_ SG_ 1114 FC_Obj11_MotionType "目标11的运动状态";
+CM_ SG_ 1114 FC_Obj11_MeasureStatus "目标11的测量状态";
+CM_ SG_ 1114 FC_Obj11_Class "目标11的类别";
+CM_ SG_ 1114 FC_Obj11_VehSubType "目标11为车辆时的子类别";
+CM_ SG_ 1114 FC_Obj11_PedSubType "目标11为行人时的子类别";
+CM_ SG_ 1114 FC_Obj11_LaneAssignment "目标11与车道线的关系";
+CM_ SG_ 1114 FC_Obj11_Height "目标11高度";
+CM_ SG_ 1114 FC_Obj11_Height_Vnce "目标11高度方差";
+CM_ SG_ 1114 FC_Obj11_Length "目标11长度";
+CM_ SG_ 1114 FC_Obj11_Length_Vnce "目标11长度方差";
+CM_ SG_ 1114 FC_Obj11_Width "目标11宽度";
+CM_ SG_ 1114 FC_Obj11_Width_Vnce "目标11宽度方差";
+CM_ SG_ 1114 FC_Obj11_TurnLight "目标11的转向灯信息";
+CM_ SG_ 1114 FC_Obj11_Brakelight_Info "目标11刹车灯信息";
+CM_ SG_ 1114 FC_Obj11_TTC "目标11的TTC";
+CM_ SG_ 1114 FC_Obj11_Dx "目标11纵向距离";
+CM_ SG_ 1114 FC_Obj11_Dx_STD "目标11纵向距离标准差";
+CM_ SG_ 1114 FC_Obj11_Dy "目标11横向距离";
+CM_ SG_ 1114 FC_Obj11_Dy_STD "目标11横向距离标准差";
+CM_ SG_ 1114 FC_Obj11_RelVx "目标11纵向相对速度";
+CM_ SG_ 1114 FC_Obj11_RelVx_STD "目标11纵向相对速度标准差";
+CM_ SG_ 1114 FC_Obj11_RelVy "目标11横向相对速度";
+CM_ SG_ 1114 FC_Obj11_RelVy_STD "目标11横向相对速度标准差";
+CM_ SG_ 1114 FC_Obj11_RelAx "目标11纵向相对加速度";
+CM_ SG_ 1114 FC_Obj11_RelAx_STD "目标11纵向相对加速度标准差";
+CM_ SG_ 1114 FC_Obj11_RelAy "目标11横向相对加速度";
+CM_ SG_ 1114 FC_Obj11_RelAy_STD "目标11横向相对加速度标准差";
+CM_ SG_ 1114 FC_Obj11_HeadingAngle "目标11方位角";
+CM_ SG_ 1114 FC_Obj11_HeadingAngle_Vnce "目标11方位角方差";
+CM_ SG_ 1114 FC_Obj11_WorldinfoYaw "目标11航向角";
+CM_ SG_ 1114 FC_Obj11_WorldinfoYaw_Vnce "目标11航向角方差";
+CM_ SG_ 1114 FC_Obj11_AbsVx "目标11纵向绝对速度";
+CM_ SG_ 1114 FC_Obj11_AbsVy "目标11横向绝对速度";
+CM_ SG_ 1114 FC_Obj11_CutInFlag "目标11 cutin标识";
+CM_ SG_ 1114 FC_Obj11_CornerPoint_x "目标11 cutin角点纵向距离";
+CM_ SG_ 1114 FC_Obj11_CornerPoint_y "目标11 cutin角点横向距离";
+CM_ SG_ 1114 FC_Obj11_CutInLane "目标11 cutIn车道线状态";
+CM_ SG_ 1114 FC_Obj11_DistInLane "目标11 cutin横向压线量";
+CM_ SG_ 1114 FC_RollingCounter_45A "45A报文的计数器";
+CM_ SG_ 1114 FC_CRCChecksum_45A "45A报文的校验和";
+CM_ SG_ 1115 FC_Obj12_Track_ID "目标12 ID";
+CM_ SG_ 1115 FC_Obj12_Valid "目标12有效性";
+CM_ SG_ 1115 FC_Obj12_Track_Age "目标12跟踪周期";
+CM_ SG_ 1115 FC_Obj12_Confidence "目标12存在的置信度";
+CM_ SG_ 1115 FC_Obj12_MotionCategory "目标12的运动类别";
+CM_ SG_ 1115 FC_Obj12_MotionType "目标12的运动状态";
+CM_ SG_ 1115 FC_Obj12_MeasureStatus "目标12的测量状态";
+CM_ SG_ 1115 FC_Obj12_Class "目标12的类别";
+CM_ SG_ 1115 FC_Obj12_VehSubType "目标12为车辆时的子类别";
+CM_ SG_ 1115 FC_Obj12_PedSubType "目标12为行人时的子类别";
+CM_ SG_ 1115 FC_Obj12_LaneAssignment "目标12与车道线的关系";
+CM_ SG_ 1115 FC_Obj12_Height "目标12高度";
+CM_ SG_ 1115 FC_Obj12_Height_Vnce "目标12高度方差";
+CM_ SG_ 1115 FC_Obj12_Length "目标12长度";
+CM_ SG_ 1115 FC_Obj12_Length_Vnce "目标12长度方差";
+CM_ SG_ 1115 FC_Obj12_Width "目标12宽度";
+CM_ SG_ 1115 FC_Obj12_Width_Vnce "目标12宽度方差";
+CM_ SG_ 1115 FC_Obj12_TurnLight "目标12的转向灯信息";
+CM_ SG_ 1115 FC_Obj12_Brakelight_Info "目标12刹车灯信息";
+CM_ SG_ 1115 FC_Obj12_TTC "目标12的TTC";
+CM_ SG_ 1115 FC_Obj12_Dx "目标12纵向距离";
+CM_ SG_ 1115 FC_Obj12_Dx_STD "目标12纵向距离标准差";
+CM_ SG_ 1115 FC_Obj12_Dy "目标12横向距离";
+CM_ SG_ 1115 FC_Obj12_Dy_STD "目标12横向距离标准差";
+CM_ SG_ 1115 FC_Obj12_RelVx "目标12纵向相对速度";
+CM_ SG_ 1115 FC_Obj12_RelVx_STD "目标12纵向相对速度标准差";
+CM_ SG_ 1115 FC_Obj12_RelVy "目标12横向相对速度";
+CM_ SG_ 1115 FC_Obj12_RelVy_STD "目标12横向相对速度标准差";
+CM_ SG_ 1115 FC_Obj12_RelAx "目标12纵向相对加速度";
+CM_ SG_ 1115 FC_Obj12_RelAx_STD "目标12纵向相对加速度标准差";
+CM_ SG_ 1115 FC_Obj12_RelAy "目标12横向相对加速度";
+CM_ SG_ 1115 FC_Obj12_RelAy_STD "目标12横向相对加速度标准差";
+CM_ SG_ 1115 FC_Obj12_HeadingAngle "目标12方位角";
+CM_ SG_ 1115 FC_Obj12_HeadingAngle_Vnce "目标12方位角方差";
+CM_ SG_ 1115 FC_Obj12_WorldinfoYaw "目标12航向角";
+CM_ SG_ 1115 FC_Obj12_WorldinfoYaw_Vnce "目标12航向角方差";
+CM_ SG_ 1115 FC_Obj12_AbsVx "目标12纵向绝对速度";
+CM_ SG_ 1115 FC_Obj12_AbsVy "目标12横向绝对速度";
+CM_ SG_ 1115 FC_Obj12_CutInFlag "目标12 cutin标识";
+CM_ SG_ 1115 FC_Obj12_CornerPoint_x "目标12 cutin角点纵向距离";
+CM_ SG_ 1115 FC_Obj12_CornerPoint_y "目标12 cutin角点横向距离";
+CM_ SG_ 1115 FC_Obj12_CutInLane "目标12 cutIn车道线状态";
+CM_ SG_ 1115 FC_Obj12_DistInLane "目标12 cutin横向压线量";
+CM_ SG_ 1115 FC_RollingCounter_45B "45B报文的计数器";
+CM_ SG_ 1115 FC_CRCChecksum_45B "45B报文的校验和";
+CM_ SG_ 1116 FC_Obj13_Track_ID "目标13 ID";
+CM_ SG_ 1116 FC_Obj13_Valid "目标13有效性";
+CM_ SG_ 1116 FC_Obj13_Track_Age "目标13跟踪周期";
+CM_ SG_ 1116 FC_Obj13_Confidence "目标13存在的置信度";
+CM_ SG_ 1116 FC_Obj13_MotionCategory "目标13的运动类别";
+CM_ SG_ 1116 FC_Obj13_MotionType "目标13的运动状态";
+CM_ SG_ 1116 FC_Obj13_MeasureStatus "目标13的测量状态";
+CM_ SG_ 1116 FC_Obj13_Class "目标13的类别";
+CM_ SG_ 1116 FC_Obj13_VehSubType "目标13为车辆时的子类别";
+CM_ SG_ 1116 FC_Obj13_PedSubType "目标13为行人时的子类别";
+CM_ SG_ 1116 FC_Obj13_LaneAssignment "目标13与车道线的关系";
+CM_ SG_ 1116 FC_Obj13_Height "目标13高度";
+CM_ SG_ 1116 FC_Obj13_Height_Vnce "目标13高度方差";
+CM_ SG_ 1116 FC_Obj13_Length "目标13长度";
+CM_ SG_ 1116 FC_Obj13_Length_Vnce "目标13长度方差";
+CM_ SG_ 1116 FC_Obj13_Width "目标13宽度";
+CM_ SG_ 1116 FC_Obj13_Width_Vnce "目标13宽度方差";
+CM_ SG_ 1116 FC_Obj13_TurnLight "目标13的转向灯信息";
+CM_ SG_ 1116 FC_Obj13_Brakelight_Info "目标13刹车灯信息";
+CM_ SG_ 1116 FC_Obj13_TTC "目标13的TTC";
+CM_ SG_ 1116 FC_Obj13_Dx "目标13纵向距离";
+CM_ SG_ 1116 FC_Obj13_Dx_STD "目标13纵向距离标准差";
+CM_ SG_ 1116 FC_Obj13_Dy "目标13横向距离";
+CM_ SG_ 1116 FC_Obj13_Dy_STD "目标13横向距离标准差";
+CM_ SG_ 1116 FC_Obj13_RelVx "目标13纵向相对速度";
+CM_ SG_ 1116 FC_Obj13_RelVx_STD "目标13纵向相对速度标准差";
+CM_ SG_ 1116 FC_Obj13_RelVy "目标13横向相对速度";
+CM_ SG_ 1116 FC_Obj13_RelVy_STD "目标13横向相对速度标准差";
+CM_ SG_ 1116 FC_Obj13_RelAx "目标13纵向相对加速度";
+CM_ SG_ 1116 FC_Obj13_RelAx_STD "目标13纵向相对加速度标准差";
+CM_ SG_ 1116 FC_Obj13_RelAy "目标13横向相对加速度";
+CM_ SG_ 1116 FC_Obj13_RelAy_STD "目标13横向相对加速度标准差";
+CM_ SG_ 1116 FC_Obj13_HeadingAngle "目标13方位角";
+CM_ SG_ 1116 FC_Obj13_HeadingAngle_Vnce "目标13方位角方差";
+CM_ SG_ 1116 FC_Obj13_WorldinfoYaw "目标13航向角";
+CM_ SG_ 1116 FC_Obj13_WorldinfoYaw_Vnce "目标13航向角方差";
+CM_ SG_ 1116 FC_Obj13_AbsVx "目标13纵向绝对速度";
+CM_ SG_ 1116 FC_Obj13_AbsVy "目标13横向绝对速度";
+CM_ SG_ 1116 FC_Obj13_CutInFlag "目标13 cutin标识";
+CM_ SG_ 1116 FC_Obj13_CornerPoint_x "目标13 cutin角点纵向距离";
+CM_ SG_ 1116 FC_Obj13_CornerPoint_y "目标13 cutin角点横向距离";
+CM_ SG_ 1116 FC_Obj13_CutInLane "目标13 cutIn车道线状态";
+CM_ SG_ 1116 FC_Obj13_DistInLane "目标13 cutin横向压线量";
+CM_ SG_ 1116 FC_RollingCounter_45C "45C报文的计数器";
+CM_ SG_ 1116 FC_CRCChecksum_45C "45C报文的校验和";
+CM_ SG_ 1117 FC_Obj14_Track_ID "目标14 ID";
+CM_ SG_ 1117 FC_Obj14_Valid "目标14有效性";
+CM_ SG_ 1117 FC_Obj14_Track_Age "目标14跟踪周期";
+CM_ SG_ 1117 FC_Obj14_Confidence "目标14存在的置信度";
+CM_ SG_ 1117 FC_Obj14_MotionCategory "目标14的运动类别";
+CM_ SG_ 1117 FC_Obj14_MotionType "目标14的运动状态";
+CM_ SG_ 1117 FC_Obj14_MeasureStatus "目标14的测量状态";
+CM_ SG_ 1117 FC_Obj14_Class "目标14的类别";
+CM_ SG_ 1117 FC_Obj14_VehSubType "目标14为车辆时的子类别";
+CM_ SG_ 1117 FC_Obj14_PedSubType "目标14为行人时的子类别";
+CM_ SG_ 1117 FC_Obj14_LaneAssignment "目标14与车道线的关系";
+CM_ SG_ 1117 FC_Obj14_Height "目标14高度";
+CM_ SG_ 1117 FC_Obj14_Height_Vnce "目标14高度方差";
+CM_ SG_ 1117 FC_Obj14_Length "目标14长度";
+CM_ SG_ 1117 FC_Obj14_Length_Vnce "目标14长度方差";
+CM_ SG_ 1117 FC_Obj14_Width "目标14宽度";
+CM_ SG_ 1117 FC_Obj14_Width_Vnce "目标14宽度方差";
+CM_ SG_ 1117 FC_Obj14_TurnLight "目标14的转向灯信息";
+CM_ SG_ 1117 FC_Obj14_Brakelight_Info "目标14刹车灯信息";
+CM_ SG_ 1117 FC_Obj14_TTC "目标14的TTC";
+CM_ SG_ 1117 FC_Obj14_Dx "目标14纵向距离";
+CM_ SG_ 1117 FC_Obj14_Dx_STD "目标14纵向距离标准差";
+CM_ SG_ 1117 FC_Obj14_Dy "目标14横向距离";
+CM_ SG_ 1117 FC_Obj14_Dy_STD "目标14横向距离标准差";
+CM_ SG_ 1117 FC_Obj14_RelVx "目标14纵向相对速度";
+CM_ SG_ 1117 FC_Obj14_RelVx_STD "目标14纵向相对速度标准差";
+CM_ SG_ 1117 FC_Obj14_RelVy "目标14横向相对速度";
+CM_ SG_ 1117 FC_Obj14_RelVy_STD "目标14横向相对速度标准差";
+CM_ SG_ 1117 FC_Obj14_RelAx "目标14纵向相对加速度";
+CM_ SG_ 1117 FC_Obj14_RelAx_STD "目标14纵向相对加速度标准差";
+CM_ SG_ 1117 FC_Obj14_RelAy "目标14横向相对加速度";
+CM_ SG_ 1117 FC_Obj14_RelAy_STD "目标14横向相对加速度标准差";
+CM_ SG_ 1117 FC_Obj14_HeadingAngle "目标14方位角";
+CM_ SG_ 1117 FC_Obj14_HeadingAngle_Vnce "目标14方位角方差";
+CM_ SG_ 1117 FC_Obj14_WorldinfoYaw "目标14航向角";
+CM_ SG_ 1117 FC_Obj14_WorldinfoYaw_Vnce "目标14航向角方差";
+CM_ SG_ 1117 FC_Obj14_AbsVx "目标14纵向绝对速度";
+CM_ SG_ 1117 FC_Obj14_AbsVy "目标14横向绝对速度";
+CM_ SG_ 1117 FC_Obj14_CutInFlag "目标14 cutin标识";
+CM_ SG_ 1117 FC_Obj14_CornerPoint_x "目标14 cutin角点纵向距离";
+CM_ SG_ 1117 FC_Obj14_CornerPoint_y "目标14 cutin角点横向距离";
+CM_ SG_ 1117 FC_Obj14_CutInLane "目标14 cutIn车道线状态";
+CM_ SG_ 1117 FC_Obj14_DistInLane "目标14 cutin横向压线量";
+CM_ SG_ 1117 FC_RollingCounter_45D "45D报文的计数器";
+CM_ SG_ 1117 FC_CRCChecksum_45D "45D报文的校验和";
+CM_ SG_ 1118 FC_Obj15_Track_ID "目标15 ID";
+CM_ SG_ 1118 FC_Obj15_Valid "目标15有效性";
+CM_ SG_ 1118 FC_Obj15_Track_Age "目标15跟踪周期";
+CM_ SG_ 1118 FC_Obj15_Confidence "目标15存在的置信度";
+CM_ SG_ 1118 FC_Obj15_MotionCategory "目标15的运动类别";
+CM_ SG_ 1118 FC_Obj15_MotionType "目标15的运动状态";
+CM_ SG_ 1118 FC_Obj15_MeasureStatus "目标15的测量状态";
+CM_ SG_ 1118 FC_Obj15_Class "目标15的类别";
+CM_ SG_ 1118 FC_Obj15_VehSubType "目标15为车辆时的子类别";
+CM_ SG_ 1118 FC_Obj15_PedSubType "目标15为行人时的子类别";
+CM_ SG_ 1118 FC_Obj15_LaneAssignment "目标15与车道线的关系";
+CM_ SG_ 1118 FC_Obj15_Height "目标15高度";
+CM_ SG_ 1118 FC_Obj15_Height_Vnce "目标15高度方差";
+CM_ SG_ 1118 FC_Obj15_Length "目标15长度";
+CM_ SG_ 1118 FC_Obj15_Length_Vnce "目标15长度方差";
+CM_ SG_ 1118 FC_Obj15_Width "目标15宽度";
+CM_ SG_ 1118 FC_Obj15_Width_Vnce "目标15宽度方差";
+CM_ SG_ 1118 FC_Obj15_TurnLight "目标15的转向灯信息";
+CM_ SG_ 1118 FC_Obj15_Brakelight_Info "目标15刹车灯信息";
+CM_ SG_ 1118 FC_Obj15_TTC "目标15的TTC";
+CM_ SG_ 1118 FC_Obj15_Dx "目标15纵向距离";
+CM_ SG_ 1118 FC_Obj15_Dx_STD "目标15纵向距离标准差";
+CM_ SG_ 1118 FC_Obj15_Dy "目标15横向距离";
+CM_ SG_ 1118 FC_Obj15_Dy_STD "目标15横向距离标准差";
+CM_ SG_ 1118 FC_Obj15_RelVx "目标15纵向相对速度";
+CM_ SG_ 1118 FC_Obj15_RelVx_STD "目标15纵向相对速度标准差";
+CM_ SG_ 1118 FC_Obj15_RelVy "目标15横向相对速度";
+CM_ SG_ 1118 FC_Obj15_RelVy_STD "目标15横向相对速度标准差";
+CM_ SG_ 1118 FC_Obj15_RelAx "目标15纵向相对加速度";
+CM_ SG_ 1118 FC_Obj15_RelAx_STD "目标15纵向相对加速度标准差";
+CM_ SG_ 1118 FC_Obj15_RelAy "目标15横向相对加速度";
+CM_ SG_ 1118 FC_Obj15_RelAy_STD "目标15横向相对加速度标准差";
+CM_ SG_ 1118 FC_Obj15_HeadingAngle "目标15方位角";
+CM_ SG_ 1118 FC_Obj15_HeadingAngle_Vnce "目标15方位角方差";
+CM_ SG_ 1118 FC_Obj15_WorldinfoYaw "目标15航向角";
+CM_ SG_ 1118 FC_Obj15_WorldinfoYaw_Vnce "目标15航向角方差";
+CM_ SG_ 1118 FC_Obj15_AbsVx "目标15纵向绝对速度";
+CM_ SG_ 1118 FC_Obj15_AbsVy "目标15横向绝对速度";
+CM_ SG_ 1118 FC_Obj15_CutInFlag "目标15 cutin标识";
+CM_ SG_ 1118 FC_Obj15_CornerPoint_x "目标15 cutin角点纵向距离";
+CM_ SG_ 1118 FC_Obj15_CornerPoint_y "目标15 cutin角点横向距离";
+CM_ SG_ 1118 FC_Obj15_CutInLane "目标15 cutIn车道线状态";
+CM_ SG_ 1118 FC_Obj15_DistInLane "目标15 cutin横向压线量";
+CM_ SG_ 1118 FC_RollingCounter_45E "45E报文的计数器";
+CM_ SG_ 1118 FC_CRCChecksum_45E "45E报文的校验和";
+CM_ SG_ 1119 FC_Obj16_Track_ID "目标16 ID";
+CM_ SG_ 1119 FC_Obj16_Valid "目标16有效性";
+CM_ SG_ 1119 FC_Obj16_Track_Age "目标16跟踪周期";
+CM_ SG_ 1119 FC_Obj16_Confidence "目标16存在的置信度";
+CM_ SG_ 1119 FC_Obj16_MotionCategory "目标16的运动类别";
+CM_ SG_ 1119 FC_Obj16_MotionType "目标16的运动状态";
+CM_ SG_ 1119 FC_Obj16_MeasureStatus "目标16的测量状态";
+CM_ SG_ 1119 FC_Obj16_Class "目标16的类别";
+CM_ SG_ 1119 FC_Obj16_VehSubType "目标16为车辆时的子类别";
+CM_ SG_ 1119 FC_Obj16_PedSubType "目标16为行人时的子类别";
+CM_ SG_ 1119 FC_Obj16_LaneAssignment "目标16与车道线的关系";
+CM_ SG_ 1119 FC_Obj16_Height "目标16高度";
+CM_ SG_ 1119 FC_Obj16_Height_Vnce "目标16高度方差";
+CM_ SG_ 1119 FC_Obj16_Length "目标16长度";
+CM_ SG_ 1119 FC_Obj16_Length_Vnce "目标16长度方差";
+CM_ SG_ 1119 FC_Obj16_Width "目标16宽度";
+CM_ SG_ 1119 FC_Obj16_Width_Vnce "目标16宽度方差";
+CM_ SG_ 1119 FC_Obj16_TurnLight "目标16的转向灯信息";
+CM_ SG_ 1119 FC_Obj16_Brakelight_Info "目标16刹车灯信息";
+CM_ SG_ 1119 FC_Obj16_TTC "目标16的TTC";
+CM_ SG_ 1119 FC_Obj16_Dx "目标16纵向距离";
+CM_ SG_ 1119 FC_Obj16_Dx_STD "目标16纵向距离标准差";
+CM_ SG_ 1119 FC_Obj16_Dy "目标16横向距离";
+CM_ SG_ 1119 FC_Obj16_Dy_STD "目标16横向距离标准差";
+CM_ SG_ 1119 FC_Obj16_RelVx "目标16纵向相对速度";
+CM_ SG_ 1119 FC_Obj16_RelVx_STD "目标16纵向相对速度标准差";
+CM_ SG_ 1119 FC_Obj16_RelVy "目标16横向相对速度";
+CM_ SG_ 1119 FC_Obj16_RelVy_STD "目标16横向相对速度标准差";
+CM_ SG_ 1119 FC_Obj16_RelAx "目标16纵向相对加速度";
+CM_ SG_ 1119 FC_Obj16_RelAx_STD "目标16纵向相对加速度标准差";
+CM_ SG_ 1119 FC_Obj16_RelAy "目标16横向相对加速度";
+CM_ SG_ 1119 FC_Obj16_RelAy_STD "目标16横向相对加速度标准差";
+CM_ SG_ 1119 FC_Obj16_HeadingAngle "目标16方位角";
+CM_ SG_ 1119 FC_Obj16_HeadingAngle_Vnce "目标16方位角方差";
+CM_ SG_ 1119 FC_Obj16_WorldinfoYaw "目标16航向角";
+CM_ SG_ 1119 FC_Obj16_WorldinfoYaw_Vnce "目标16航向角方差";
+CM_ SG_ 1119 FC_Obj16_AbsVx "目标16纵向绝对速度";
+CM_ SG_ 1119 FC_Obj16_AbsVy "目标16横向绝对速度";
+CM_ SG_ 1119 FC_Obj16_CutInFlag "目标16 cutin标识";
+CM_ SG_ 1119 FC_Obj16_CornerPoint_x "目标16 cutin角点纵向距离";
+CM_ SG_ 1119 FC_Obj16_CornerPoint_y "目标16 cutin角点横向距离";
+CM_ SG_ 1119 FC_Obj16_CutInLane "目标16 cutIn车道线状态";
+CM_ SG_ 1119 FC_Obj16_DistInLane "目标16 cutin横向压线量";
+CM_ SG_ 1119 FC_RollingCounter_45F "45F报文的计数器";
+CM_ SG_ 1119 FC_CRCChecksum_45F "45F报文的校验和";
+CM_ SG_ 1120 FC_Obj17_Track_ID "目标17 ID";
+CM_ SG_ 1120 FC_Obj17_Valid "目标17有效性";
+CM_ SG_ 1120 FC_Obj17_Track_Age "目标17跟踪周期";
+CM_ SG_ 1120 FC_Obj17_Confidence "目标17存在的置信度";
+CM_ SG_ 1120 FC_Obj17_MotionCategory "目标17的运动类别";
+CM_ SG_ 1120 FC_Obj17_MotionType "目标17的运动状态";
+CM_ SG_ 1120 FC_Obj17_MeasureStatus "目标17的测量状态";
+CM_ SG_ 1120 FC_Obj17_Class "目标17的类别";
+CM_ SG_ 1120 FC_Obj17_VehSubType "目标17为车辆时的子类别";
+CM_ SG_ 1120 FC_Obj17_PedSubType "目标17为行人时的子类别";
+CM_ SG_ 1120 FC_Obj17_LaneAssignment "目标17与车道线的关系";
+CM_ SG_ 1120 FC_Obj17_Height "目标17高度";
+CM_ SG_ 1120 FC_Obj17_Height_Vnce "目标17高度方差";
+CM_ SG_ 1120 FC_Obj17_Length "目标17长度";
+CM_ SG_ 1120 FC_Obj17_Length_Vnce "目标17长度方差";
+CM_ SG_ 1120 FC_Obj17_Width "目标17宽度";
+CM_ SG_ 1120 FC_Obj17_Width_Vnce "目标17宽度方差";
+CM_ SG_ 1120 FC_Obj17_TurnLight "目标17的转向灯信息";
+CM_ SG_ 1120 FC_Obj17_Brakelight_Info "目标17刹车灯信息";
+CM_ SG_ 1120 FC_Obj17_TTC "目标17的TTC";
+CM_ SG_ 1120 FC_Obj17_Dx "目标17纵向距离";
+CM_ SG_ 1120 FC_Obj17_Dx_STD "目标17纵向距离标准差";
+CM_ SG_ 1120 FC_Obj17_Dy "目标17横向距离";
+CM_ SG_ 1120 FC_Obj17_Dy_STD "目标17横向距离标准差";
+CM_ SG_ 1120 FC_Obj17_RelVx "目标17纵向相对速度";
+CM_ SG_ 1120 FC_Obj17_RelVx_STD "目标17纵向相对速度标准差";
+CM_ SG_ 1120 FC_Obj17_RelVy "目标17横向相对速度";
+CM_ SG_ 1120 FC_Obj17_RelVy_STD "目标17横向相对速度标准差";
+CM_ SG_ 1120 FC_Obj17_RelAx "目标17纵向相对加速度";
+CM_ SG_ 1120 FC_Obj17_RelAx_STD "目标17纵向相对加速度标准差";
+CM_ SG_ 1120 FC_Obj17_RelAy "目标17横向相对加速度";
+CM_ SG_ 1120 FC_Obj17_RelAy_STD "目标17横向相对加速度标准差";
+CM_ SG_ 1120 FC_Obj17_HeadingAngle "目标17方位角";
+CM_ SG_ 1120 FC_Obj17_HeadingAngle_Vnce "目标17方位角方差";
+CM_ SG_ 1120 FC_Obj17_WorldinfoYaw "目标17航向角";
+CM_ SG_ 1120 FC_Obj17_WorldinfoYaw_Vnce "目标17航向角方差";
+CM_ SG_ 1120 FC_Obj17_AbsVx "目标17纵向绝对速度";
+CM_ SG_ 1120 FC_Obj17_AbsVy "目标17横向绝对速度";
+CM_ SG_ 1120 FC_Obj17_CutInFlag "目标17 cutin标识";
+CM_ SG_ 1120 FC_Obj17_CornerPoint_x "目标17 cutin角点纵向距离";
+CM_ SG_ 1120 FC_Obj17_CornerPoint_y "目标17 cutin角点横向距离";
+CM_ SG_ 1120 FC_Obj17_CutInLane "目标17 cutIn车道线状态";
+CM_ SG_ 1120 FC_Obj17_DistInLane "目标17 cutin横向压线量";
+CM_ SG_ 1120 FC_RollingCounter_460 "460报文的计数器";
+CM_ SG_ 1120 FC_CRCChecksum_460 "460报文的校验和";
+CM_ SG_ 1121 FC_Obj18_Track_ID "目标18 ID";
+CM_ SG_ 1121 FC_Obj18_Valid "目标18有效性";
+CM_ SG_ 1121 FC_Obj18_Track_Age "目标18跟踪周期";
+CM_ SG_ 1121 FC_Obj18_Confidence "目标18存在的置信度";
+CM_ SG_ 1121 FC_Obj18_MotionCategory "目标18的运动类别";
+CM_ SG_ 1121 FC_Obj18_MotionType "目标18的运动状态";
+CM_ SG_ 1121 FC_Obj18_MeasureStatus "目标18的测量状态";
+CM_ SG_ 1121 FC_Obj18_Class "目标18的类别";
+CM_ SG_ 1121 FC_Obj18_VehSubType "目标18为车辆时的子类别";
+CM_ SG_ 1121 FC_Obj18_PedSubType "目标18为行人时的子类别";
+CM_ SG_ 1121 FC_Obj18_LaneAssignment "目标18与车道线的关系";
+CM_ SG_ 1121 FC_Obj18_Height "目标18高度";
+CM_ SG_ 1121 FC_Obj18_Height_Vnce "目标18高度方差";
+CM_ SG_ 1121 FC_Obj18_Length "目标18长度";
+CM_ SG_ 1121 FC_Obj18_Length_Vnce "目标18长度方差";
+CM_ SG_ 1121 FC_Obj18_Width "目标18宽度";
+CM_ SG_ 1121 FC_Obj18_Width_Vnce "目标18宽度方差";
+CM_ SG_ 1121 FC_Obj18_TurnLight "目标18的转向灯信息";
+CM_ SG_ 1121 FC_Obj18_Brakelight_Info "目标18刹车灯信息";
+CM_ SG_ 1121 FC_Obj18_TTC "目标18的TTC";
+CM_ SG_ 1121 FC_Obj18_Dx "目标18纵向距离";
+CM_ SG_ 1121 FC_Obj18_Dx_STD "目标18纵向距离标准差";
+CM_ SG_ 1121 FC_Obj18_Dy "目标18横向距离";
+CM_ SG_ 1121 FC_Obj18_Dy_STD "目标18横向距离标准差";
+CM_ SG_ 1121 FC_Obj18_RelVx "目标18纵向相对速度";
+CM_ SG_ 1121 FC_Obj18_RelVx_STD "目标18纵向相对速度标准差";
+CM_ SG_ 1121 FC_Obj18_RelVy "目标18横向相对速度";
+CM_ SG_ 1121 FC_Obj18_RelVy_STD "目标18横向相对速度标准差";
+CM_ SG_ 1121 FC_Obj18_RelAx "目标18纵向相对加速度";
+CM_ SG_ 1121 FC_Obj18_RelAx_STD "目标18纵向相对加速度标准差";
+CM_ SG_ 1121 FC_Obj18_RelAy "目标18横向相对加速度";
+CM_ SG_ 1121 FC_Obj18_RelAy_STD "目标18横向相对加速度标准差";
+CM_ SG_ 1121 FC_Obj18_HeadingAngle "目标18方位角";
+CM_ SG_ 1121 FC_Obj18_HeadingAngle_Vnce "目标18方位角方差";
+CM_ SG_ 1121 FC_Obj18_WorldinfoYaw "目标18航向角";
+CM_ SG_ 1121 FC_Obj18_WorldinfoYaw_Vnce "目标18航向角方差";
+CM_ SG_ 1121 FC_Obj18_AbsVx "目标18纵向绝对速度";
+CM_ SG_ 1121 FC_Obj18_AbsVy "目标18横向绝对速度";
+CM_ SG_ 1121 FC_Obj18_CutInFlag "目标18 cutin标识";
+CM_ SG_ 1121 FC_Obj18_CornerPoint_x "目标18 cutin角点纵向距离";
+CM_ SG_ 1121 FC_Obj18_CornerPoint_y "目标18 cutin角点横向距离";
+CM_ SG_ 1121 FC_Obj18_CutInLane "目标18 cutIn车道线状态";
+CM_ SG_ 1121 FC_Obj18_DistInLane "目标18 cutin横向压线量";
+CM_ SG_ 1121 FC_RollingCounter_461 "461报文的计数器";
+CM_ SG_ 1121 FC_CRCChecksum_461 "461报文的校验和";
+CM_ SG_ 1122 FC_Obj19_Track_ID "目标19 ID";
+CM_ SG_ 1122 FC_Obj19_Valid "目标19有效性";
+CM_ SG_ 1122 FC_Obj19_Track_Age "目标19跟踪周期";
+CM_ SG_ 1122 FC_Obj19_Confidence "目标19存在的置信度";
+CM_ SG_ 1122 FC_Obj19_MotionCategory "目标19的运动类别";
+CM_ SG_ 1122 FC_Obj19_MotionType "目标19的运动状态";
+CM_ SG_ 1122 FC_Obj19_MeasureStatus "目标19的测量状态";
+CM_ SG_ 1122 FC_Obj19_Class "目标19的类别";
+CM_ SG_ 1122 FC_Obj19_VehSubType "目标19为车辆时的子类别";
+CM_ SG_ 1122 FC_Obj19_PedSubType "目标19为行人时的子类别";
+CM_ SG_ 1122 FC_Obj19_LaneAssignment "目标19与车道线的关系";
+CM_ SG_ 1122 FC_Obj19_Height "目标19高度";
+CM_ SG_ 1122 FC_Obj19_Height_Vnce "目标19高度方差";
+CM_ SG_ 1122 FC_Obj19_Length "目标19长度";
+CM_ SG_ 1122 FC_Obj19_Length_Vnce "目标19长度方差";
+CM_ SG_ 1122 FC_Obj19_Width "目标19宽度";
+CM_ SG_ 1122 FC_Obj19_Width_Vnce "目标19宽度方差";
+CM_ SG_ 1122 FC_Obj19_TurnLight "目标19的转向灯信息";
+CM_ SG_ 1122 FC_Obj19_Brakelight_Info "目标19刹车灯信息";
+CM_ SG_ 1122 FC_Obj19_TTC "目标19的TTC";
+CM_ SG_ 1122 FC_Obj19_Dx "目标19纵向距离";
+CM_ SG_ 1122 FC_Obj19_Dx_STD "目标19纵向距离标准差";
+CM_ SG_ 1122 FC_Obj19_Dy "目标19横向距离";
+CM_ SG_ 1122 FC_Obj19_Dy_STD "目标19横向距离标准差";
+CM_ SG_ 1122 FC_Obj19_RelVx "目标19纵向相对速度";
+CM_ SG_ 1122 FC_Obj19_RelVx_STD "目标19纵向相对速度标准差";
+CM_ SG_ 1122 FC_Obj19_RelVy "目标19横向相对速度";
+CM_ SG_ 1122 FC_Obj19_RelVy_STD "目标19横向相对速度标准差";
+CM_ SG_ 1122 FC_Obj19_RelAx "目标19纵向相对加速度";
+CM_ SG_ 1122 FC_Obj19_RelAx_STD "目标19纵向相对加速度标准差";
+CM_ SG_ 1122 FC_Obj19_RelAy "目标19横向相对加速度";
+CM_ SG_ 1122 FC_Obj19_RelAy_STD "目标19横向相对加速度标准差";
+CM_ SG_ 1122 FC_Obj19_HeadingAngle "目标19方位角";
+CM_ SG_ 1122 FC_Obj19_HeadingAngle_Vnce "目标19方位角方差";
+CM_ SG_ 1122 FC_Obj19_WorldinfoYaw "目标19航向角";
+CM_ SG_ 1122 FC_Obj19_WorldinfoYaw_Vnce "目标19航向角方差";
+CM_ SG_ 1122 FC_Obj19_AbsVx "目标19纵向绝对速度";
+CM_ SG_ 1122 FC_Obj19_AbsVy "目标19横向绝对速度";
+CM_ SG_ 1122 FC_Obj19_CutInFlag "目标19 cutin标识";
+CM_ SG_ 1122 FC_Obj19_CornerPoint_x "目标19 cutin角点纵向距离";
+CM_ SG_ 1122 FC_Obj19_CornerPoint_y "目标19 cutin角点横向距离";
+CM_ SG_ 1122 FC_Obj19_CutInLane "目标19 cutIn车道线状态";
+CM_ SG_ 1122 FC_Obj19_DistInLane "目标19 cutin横向压线量";
+CM_ SG_ 1122 FC_RollingCounter_462 "462报文的计数器";
+CM_ SG_ 1122 FC_CRCChecksum_462 "462报文的校验和";
+CM_ SG_ 1123 FC_Obj20_Track_ID "目标20 ID";
+CM_ SG_ 1123 FC_Obj20_Valid "目标20有效性";
+CM_ SG_ 1123 FC_Obj20_Track_Age "目标20跟踪周期";
+CM_ SG_ 1123 FC_Obj20_Confidence "目标20存在的置信度";
+CM_ SG_ 1123 FC_Obj20_MotionCategory "目标20的运动类别";
+CM_ SG_ 1123 FC_Obj20_MotionType "目标20的运动状态";
+CM_ SG_ 1123 FC_Obj20_MeasureStatus "目标20的测量状态";
+CM_ SG_ 1123 FC_Obj20_Class "目标20的类别";
+CM_ SG_ 1123 FC_Obj20_VehSubType "目标20为车辆时的子类别";
+CM_ SG_ 1123 FC_Obj20_PedSubType "目标20为行人时的子类别";
+CM_ SG_ 1123 FC_Obj20_LaneAssignment "目标20与车道线的关系";
+CM_ SG_ 1123 FC_Obj20_Height "目标20高度";
+CM_ SG_ 1123 FC_Obj20_Height_Vnce "目标20高度方差";
+CM_ SG_ 1123 FC_Obj20_Length "目标20长度";
+CM_ SG_ 1123 FC_Obj20_Length_Vnce "目标20长度方差";
+CM_ SG_ 1123 FC_Obj20_Width "目标20宽度";
+CM_ SG_ 1123 FC_Obj20_Width_Vnce "目标20宽度方差";
+CM_ SG_ 1123 FC_Obj20_TurnLight "目标20的转向灯信息";
+CM_ SG_ 1123 FC_Obj20_Brakelight_Info "目标20刹车灯信息";
+CM_ SG_ 1123 FC_Obj20_TTC "目标20的TTC";
+CM_ SG_ 1123 FC_Obj20_Dx "目标20纵向距离";
+CM_ SG_ 1123 FC_Obj20_Dx_STD "目标20纵向距离标准差";
+CM_ SG_ 1123 FC_Obj20_Dy "目标20横向距离";
+CM_ SG_ 1123 FC_Obj20_Dy_STD "目标20横向距离标准差";
+CM_ SG_ 1123 FC_Obj20_RelVx "目标20纵向相对速度";
+CM_ SG_ 1123 FC_Obj20_RelVx_STD "目标20纵向相对速度标准差";
+CM_ SG_ 1123 FC_Obj20_RelVy "目标20横向相对速度";
+CM_ SG_ 1123 FC_Obj20_RelVy_STD "目标20横向相对速度标准差";
+CM_ SG_ 1123 FC_Obj20_RelAx "目标20纵向相对加速度";
+CM_ SG_ 1123 FC_Obj20_RelAx_STD "目标20纵向相对加速度标准差";
+CM_ SG_ 1123 FC_Obj20_RelAy "目标20横向相对加速度";
+CM_ SG_ 1123 FC_Obj20_RelAy_STD "目标20横向相对加速度标准差";
+CM_ SG_ 1123 FC_Obj20_HeadingAngle "目标20方位角";
+CM_ SG_ 1123 FC_Obj20_HeadingAngle_Vnce "目标20方位角方差";
+CM_ SG_ 1123 FC_Obj20_WorldinfoYaw "目标20航向角";
+CM_ SG_ 1123 FC_Obj20_WorldinfoYaw_Vnce "目标20航向角方差";
+CM_ SG_ 1123 FC_Obj20_AbsVx "目标20纵向绝对速度";
+CM_ SG_ 1123 FC_Obj20_AbsVy "目标20横向绝对速度";
+CM_ SG_ 1123 FC_Obj20_CutInFlag "目标20 cutin标识";
+CM_ SG_ 1123 FC_Obj20_CornerPoint_x "目标20 cutin角点纵向距离";
+CM_ SG_ 1123 FC_Obj20_CornerPoint_y "目标20 cutin角点横向距离";
+CM_ SG_ 1123 FC_Obj20_CutInLane "目标20 cutIn车道线状态";
+CM_ SG_ 1123 FC_Obj20_DistInLane "目标20 cutin横向压线量";
+CM_ SG_ 1123 FC_RollingCounter_462 "462报文的计数器";
+CM_ SG_ 1123 FC_CRCChecksum_462 "462报文的校验和";
+CM_ SG_ 1136 FC_Line1_ID "车道线1 ID";
+CM_ SG_ 1136 FC_Line1_Confidence "车道线1的概率";
+CM_ SG_ 1136 FC_Line1_MeasureStauts "车道线1测量状态";
+CM_ SG_ 1136 FC_Line1_Type "车道线1类型";
+CM_ SG_ 1136 FC_Line1_color "车道线1颜色";
+CM_ SG_ 1136 FC_Line1_Width "车道线1宽度";
+CM_ SG_ 1136 FC_Line1_dx_Start "车道线1起始点到本车纵向距离";
+CM_ SG_ 1136 FC_Line1_dx_End "车道线1结束点到本车纵向距离";
+CM_ SG_ 1136 FC_Line1_ModelC0 "车道线1方程系数C0";
+CM_ SG_ 1136 FC_Line1_ModelC1 "车道线1方程系数C1";
+CM_ SG_ 1136 FC_Line1_ModelC2 "车道线1方程系数C2";
+CM_ SG_ 1136 FC_Line1_ModelC3 "车道线1方程系数C3";
+CM_ SG_ 1136 FC_Line1_ParseConf "车道线1的分割置信度";
+CM_ SG_ 1136 FC_Line2_ID "车道线2 ID";
+CM_ SG_ 1136 FC_Line2_Confidence "车道线2的概率";
+CM_ SG_ 1136 FC_Line2_MeasureStauts "车道线2测量状态";
+CM_ SG_ 1136 FC_Line2_Type "车道线2类型";
+CM_ SG_ 1136 FC_Line2_color "车道线2颜色";
+CM_ SG_ 1136 FC_Line2_Width "车道线2宽度";
+CM_ SG_ 1136 FC_Line2_dx_Start "车道线2起始点到本车纵向距离";
+CM_ SG_ 1136 FC_Line2_dx_End "车道线2结束点到本车纵向距离";
+CM_ SG_ 1136 FC_Line2_ModelC0 "车道线2方程系数C0";
+CM_ SG_ 1136 FC_Line2_ModelC1 "车道线2方程系数C1";
+CM_ SG_ 1136 FC_Line2_ModelC2 "车道线2方程系数C2";
+CM_ SG_ 1136 FC_Line2_ModelC3 "车道线2方程系数C3";
+CM_ SG_ 1136 FC_Line2_ParseConf "车道线2的分割置信度";
+CM_ SG_ 1136 FC_RollingCounter_470 "470报文的计数器";
+CM_ SG_ 1136 FC_CRCChecksum_470 "470报文的校验和";
+CM_ SG_ 1137 FC_Line3_ID "车道线3 ID";
+CM_ SG_ 1137 FC_Line3_Confidence "车道线3的概率";
+CM_ SG_ 1137 FC_Line3_MeasureStauts "车道线3测量状态";
+CM_ SG_ 1137 FC_Line3_Type "车道线3类型";
+CM_ SG_ 1137 FC_Line3_color "车道线3颜色";
+CM_ SG_ 1137 FC_Line3_Width "车道线3宽度";
+CM_ SG_ 1137 FC_Line3_dx_Start "车道线3起始点到本车纵向距离";
+CM_ SG_ 1137 FC_Line3_dx_End "车道线3结束点到本车纵向距离";
+CM_ SG_ 1137 FC_Line3_ModelC0 "车道线3方程系数C0";
+CM_ SG_ 1137 FC_Line3_ModelC1 "车道线3方程系数C1";
+CM_ SG_ 1137 FC_Line3_ModelC2 "车道线3方程系数C2";
+CM_ SG_ 1137 FC_Line3_ModelC3 "车道线3方程系数C3";
+CM_ SG_ 1137 FC_Line3_ParseConf "车道线3的分割置信度";
+CM_ SG_ 1137 FC_Line4_ID "车道线4 ID";
+CM_ SG_ 1137 FC_Line4_Confidence "车道线4的概率";
+CM_ SG_ 1137 FC_Line4_MeasureStauts "车道线4测量状态";
+CM_ SG_ 1137 FC_Line4_Type "车道线4类型";
+CM_ SG_ 1137 FC_Line4_color "车道线4颜色";
+CM_ SG_ 1137 FC_Line4_Width "车道线4宽度";
+CM_ SG_ 1137 FC_Line4_dx_Start "车道线4起始点到本车纵向距离";
+CM_ SG_ 1137 FC_Line4_dx_End "车道线4结束点到本车纵向距离";
+CM_ SG_ 1137 FC_Line4_ModelC0 "车道线4方程系数C0";
+CM_ SG_ 1137 FC_Line4_ModelC1 "车道线4方程系数C1";
+CM_ SG_ 1137 FC_Line4_ModelC2 "车道线4方程系数C2";
+CM_ SG_ 1137 FC_Line4_ModelC3 "车道线4方程系数C3";
+CM_ SG_ 1137 FC_Line4_ParseConf "车道线4的分割置信度";
+CM_ SG_ 1137 FC_RollingCounter_471 "471报文的计数器";
+CM_ SG_ 1137 FC_CRCChecksum_471 "471报文的校验和";
+CM_ SG_ 1138 FC_Line5_ID "车道线5 ID";
+CM_ SG_ 1138 FC_Line5_Confidence "车道线5的概率";
+CM_ SG_ 1138 FC_Line5_MeasureStauts "车道线5测量状态";
+CM_ SG_ 1138 FC_Line5_Type "车道线5类型";
+CM_ SG_ 1138 FC_Line5_color "车道线5颜色";
+CM_ SG_ 1138 FC_Line5_dx_Start "车道线5起始点到本车纵向距离";
+CM_ SG_ 1138 FC_Line5_dx_End "车道线5结束点到本车纵向距离";
+CM_ SG_ 1138 FC_Line5_ModelC0 "车道线5方程系数C0";
+CM_ SG_ 1138 FC_Line5_ModelC1 "车道线5方程系数C1";
+CM_ SG_ 1138 FC_Line5_ModelC2 "车道线5方程系数C2";
+CM_ SG_ 1138 FC_Line5_ModelC3 "车道线5方程系数C3";
+CM_ SG_ 1138 FC_Line5_ParseConf "车道线5的分割置信度";
+CM_ SG_ 1138 FC_Line6_ID "车道线6 ID";
+CM_ SG_ 1138 FC_Line6_Confidence "车道线6的概率";
+CM_ SG_ 1138 FC_Line6_MeasureStauts "车道线6测量状态";
+CM_ SG_ 1138 FC_Line6_Type "车道线6类型";
+CM_ SG_ 1138 FC_Line6_color "车道线6颜色";
+CM_ SG_ 1138 FC_Line6_dx_Start "车道线6起始点到本车纵向距离";
+CM_ SG_ 1138 FC_Line6_dx_End "车道线6结束点到本车纵向距离";
+CM_ SG_ 1138 FC_Line6_ModelC0 "车道线6方程系数C0";
+CM_ SG_ 1138 FC_Line6_ModelC1 "车道线6方程系数C1";
+CM_ SG_ 1138 FC_Line6_ModelC2 "车道线6方程系数C2";
+CM_ SG_ 1138 FC_Line6_ModelC3 "车道线6方程系数C3";
+CM_ SG_ 1138 FC_Line6_ParseConf "车道线6的分割置信度";
+CM_ SG_ 1138 FC_RollingCounter_472 "472报文的计数器";
+CM_ SG_ 1138 FC_CRCChecksum_472 "472报文的校验和";
+CM_ SG_ 1168 FC_RoadType "道路类型";
+CM_ SG_ 1168 FC_WeatherType "天气状态";
+CM_ SG_ 1168 FC_RollingCounter_490 "490报文的计数器";
+CM_ SG_ 1168 FC_CRCChecksum_490 "490报文的校验和";
+CM_ SG_ 1172 FC_IHBC_Decision "IHBC远光灯开启";
+CM_ SG_ 1172 FC_VisionOnlySign_Type "视觉检测交通标志牌类型";
+CM_ SG_ 1172 FC_ISA_Value "ISA限速值";
+CM_ SG_ 1172 FC_ISA_Sign_Type "ISA功能状态";
+CM_ SG_ 1172 FC_ISA_Popup_text "ISA弹出文本内容";
+CM_ SG_ 1172 FC_SpeedLimitType "限速值类型";
+CM_ SG_ 1172 FC_TSRHostSpdLimitUnits "本车道限速值显示单位";
+CM_ SG_ 1172 FC_TSRMandatorySign "指示标志";
+CM_ SG_ 1172 FC_TSRProhibitionSign "禁令标志";
+CM_ SG_ 1172 FC_TSRWarningSign "警告标志";
+CM_ SG_ 1172 FC_StopLine_Detected "前方停止线识别";
+CM_ SG_ 1172 FC_StopLine_Dist "前方停止线距离";
+CM_ SG_ 1172 FC_Crosswalk_Detect "前方人行道识别";
+CM_ SG_ 1172 FC_Crosswalk_Dist "前方人行道距离";
+CM_ SG_ 1172 FC_SpeedBump_Detect "前方减速带识别";
+CM_ SG_ 1172 FC_SpeedBump_Dist "前方减速带距离";
+CM_ SG_ 1172 FC_RollingCounter_494 "494报文的计数器";
+CM_ SG_ 1172 FC_CRCChecksum_494 "494报文的校验和";
+CM_ SG_ 1173 FC_CameraCalibrationStatus "摄像头校准状态";
+CM_ SG_ 1173 FC_CameraFailureStatus "摄像头失效状态";
+CM_ SG_ 1173 FC_FrameID "摄像头帧ID";
+CM_ SG_ 1173 FC_TiStamp "摄像头时间戳";
+CM_ SG_ 1173 FC_TiBas "摄像头时间同步确认";
+CM_ SG_ 1173 FC_TiLeap "摄像头时间同步差值确认";
+CM_ SG_ 1173 FC_TiOut "摄像头时间同步超时";
+CM_ SG_ 1173 FC_MCUTiStamp "目标时间同步精度";
+CM_ SG_ 1173 FC_RollingCounter_495 "495报文的计数器";
+CM_ SG_ 1173 FC_CRCChecksum_495 "495报文的校验和";
+CM_ SG_ 1139 FC_StaticObj1_Type "静态目标1类型";
+CM_ SG_ 1139 FC_StaticObj2_Type "静态目标2类型";
+CM_ SG_ 1139 FC_StaticObj3_Type "静态目标3类型";
+CM_ SG_ 1139 FC_StaticObj4_Type "静态目标4类型";
+CM_ SG_ 1139 FC_StaticObj5_Type "静态目标5类型";
+CM_ SG_ 1139 FC_StaticObj6_Type "静态目标6类型";
+CM_ SG_ 1139 FC_StaticObj7_Type "静态目标7类型";
+CM_ SG_ 1139 FC_StaticObj8_Type "静态目标8类型";
+CM_ SG_ 1139 FC_StaticObj9_Type "静态目标9类型";
+CM_ SG_ 1139 FC_StaticObj10_Type "静态目标10类型";
+CM_ SG_ 1139 FC_StaticObj11_Type "静态目标11类型";
+CM_ SG_ 1139 FC_StaticObj12_Type "静态目标12类型";
+CM_ SG_ 1139 FC_StaticObj13_Type "静态目标13类型";
+CM_ SG_ 1139 FC_StaticObj14_Type "静态目标14类型";
+CM_ SG_ 1139 FC_StaticObj15_Type "静态目标15类型";
+CM_ SG_ 1139 FC_StaticObj16_Type "静态目标16类型";
+CM_ SG_ 1139 FC_StaticObj17_Type "静态目标17类型";
+CM_ SG_ 1139 FC_StaticObj18_Type "静态目标18类型";
+CM_ SG_ 1139 FC_StaticObj19_Type "静态目标19类型";
+CM_ SG_ 1139 FC_StaticObj20_Type "静态目标20类型";
+CM_ SG_ 1139 FC_StaticObj1_Dx "静态目标1纵向距离";
+CM_ SG_ 1139 FC_StaticObj2_Dx "静态目标2纵向距离";
+CM_ SG_ 1139 FC_StaticObj3_Dx "静态目标3纵向距离";
+CM_ SG_ 1139 FC_StaticObj4_Dx "静态目标4纵向距离";
+CM_ SG_ 1139 FC_StaticObj5_Dx "静态目标5纵向距离";
+CM_ SG_ 1139 FC_StaticObj6_Dx "静态目标6纵向距离";
+CM_ SG_ 1139 FC_StaticObj7_Dx "静态目标7纵向距离";
+CM_ SG_ 1139 FC_StaticObj8_Dx "静态目标8纵向距离";
+CM_ SG_ 1139 FC_StaticObj9_Dx "静态目标9纵向距离";
+CM_ SG_ 1139 FC_StaticObj10_Dx "静态目标10纵向距离";
+CM_ SG_ 1139 FC_StaticObj11_Dx "静态目标11纵向距离";
+CM_ SG_ 1139 FC_StaticObj12_Dx "静态目标12纵向距离";
+CM_ SG_ 1139 FC_StaticObj13_Dx "静态目标13纵向距离";
+CM_ SG_ 1139 FC_StaticObj14_Dx "静态目标14纵向距离";
+CM_ SG_ 1139 FC_StaticObj15_Dx "静态目标15纵向距离";
+CM_ SG_ 1139 FC_StaticObj16_Dx "静态目标16纵向距离";
+CM_ SG_ 1139 FC_StaticObj17_Dx "静态目标17纵向距离";
+CM_ SG_ 1139 FC_StaticObj18_Dx "静态目标18纵向距离";
+CM_ SG_ 1139 FC_StaticObj19_Dx "静态目标19纵向距离";
+CM_ SG_ 1139 FC_StaticObj20_Dx "静态目标20纵向距离";
+CM_ SG_ 1139 FC_StaticObj1_Dy "静态目标1横向距离";
+CM_ SG_ 1139 FC_StaticObj2_Dy "静态目标2横向距离";
+CM_ SG_ 1139 FC_StaticObj3_Dy "静态目标3横向距离";
+CM_ SG_ 1139 FC_StaticObj4_Dy "静态目标4横向距离";
+CM_ SG_ 1139 FC_StaticObj5_Dy "静态目标5横向距离";
+CM_ SG_ 1139 FC_StaticObj6_Dy "静态目标6横向距离";
+CM_ SG_ 1139 FC_StaticObj7_Dy "静态目标7横向距离";
+CM_ SG_ 1139 FC_StaticObj8_Dy "静态目标8横向距离";
+CM_ SG_ 1139 FC_StaticObj9_Dy "静态目标9横向距离";
+CM_ SG_ 1139 FC_StaticObj10_Dy "静态目标10横向距离";
+CM_ SG_ 1139 FC_StaticObj11_Dy "静态目标11横向距离";
+CM_ SG_ 1139 FC_StaticObj12_Dy "静态目标12横向距离";
+CM_ SG_ 1139 FC_StaticObj13_Dy "静态目标13横向距离";
+CM_ SG_ 1139 FC_StaticObj14_Dy "静态目标14横向距离";
+CM_ SG_ 1139 FC_StaticObj15_Dy "静态目标15横向距离";
+CM_ SG_ 1139 FC_StaticObj16_Dy "静态目标16横向距离";
+CM_ SG_ 1139 FC_StaticObj17_Dy "静态目标17横向距离";
+CM_ SG_ 1139 FC_StaticObj18_Dy "静态目标18横向距离";
+CM_ SG_ 1139 FC_StaticObj19_Dy "静态目标19横向距离";
+CM_ SG_ 1139 FC_StaticObj20_Dy "静态目标20横向距离";
+CM_ SG_ 1139 FC_RollingCounter_473 "473报文的计数器";
+CM_ SG_ 1139 FC_CRCChecksum_473 "473报文的校验和";
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 0;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ SG_  "GenSigActiveRepetitions" INT -2147483648 2147483647;
+BA_DEF_ SG_  "GenSigStartValue" INT -2147483648 2147483647;
+BA_DEF_ SG_  "NWM-WakeupAllowed" ENUM  "No","Yes";
+BA_DEF_ SG_  "GenSigFuncType" ENUM  "NoFunction","MsgCounter","CRC-8","XOR","XOR-2","DatedBit","SW-Kl15","CHK","Constant","Protocol","CRC-8-SAE_J1850","CRC-32","DataLength","DataID","MsgCounter16","SOK-Signatur";
+BA_DEF_ SG_  "GenSigSwitchedByIgnition" ENUM  "No","Yes";
+BA_DEF_ SG_  "Fehlerwert" HEX 0 2147483647;
+BA_DEF_ SG_  "GenSigMissingSourceValue" HEX 0 2147483647;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","Event","not_used","not_used","not_used","Cyclic","not_used","IfActive","NoMsgSendType";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgChkConstant" HEX 0 4095;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 65535;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 100000;
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 100;
+BA_DEF_ BO_  "GenMsgPDUConstants" STRING ;
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 100000;
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmhMessage" ENUM  "No","Yes";
+BA_DEF_ BO_  "MsgType" ENUM  "Application","NM ","NMH","TP2.0","ISO-TP ","BAP","EID","KS";
+BA_DEF_ BO_  "VAGTP20_API" HEX 0 255;
+BA_DEF_ BO_  "VAGTP20_DynConnection" ENUM  "No","Yes";
+BA_DEF_ BO_  "VAGTP20_DynSetup" ENUM  "No","Yes";
+BA_DEF_ BO_  "VAGTP20_StatConnection" ENUM  "No","Yes";
+BA_DEF_ BO_  "CANFD_BRS" ENUM  "0","1";
+BA_DEF_ BO_  "E2EDataId" INT 0 0;
+BA_DEF_ BO_  "E2EDataLength" INT 0 0;
+BA_DEF_ BO_  "E2EProfile" STRING ;
+BA_DEF_ BU_  "GenNodAutoGenDsp" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodAutoGenSnd" ENUM  "No","Yes";
+BA_DEF_ BU_  "GenNodSleepTime" INT 0 1000000;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BU_  "ECUVariantDefault" ENUM  "No","Yes";
+BA_DEF_ BU_  "ECUVariantGroup" STRING ;
+BA_DEF_ BU_  "VAGTP20_TargetAddress" HEX 0 127;
+BA_DEF_ BU_  "NodeLayerModules" STRING ;
+BA_DEF_ BU_  "NmhNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "SamplePointMin" FLOAT 50 99.9;
+BA_DEF_ BU_  "SamplePointMax" FLOAT 50 99.9;
+BA_DEF_ BU_  "SyncJumpWidthMin" FLOAT 0 50;
+BA_DEF_ BU_  "SyncJumpWidthMax" FLOAT 0 50;
+BA_DEF_ BU_  "SyncJumpWidthCANFDMin" FLOAT 0 50;
+BA_DEF_ BU_  "SyncJumpWidthCANFDMax" FLOAT 0 50;
+BA_DEF_ BU_  "SamplePointCANFDMin" FLOAT 50 99.9;
+BA_DEF_ BU_  "SamplePointCANFDMax" FLOAT 50 99.9;
+BA_DEF_ BU_  "SSPOffsetCANFDMin" FLOAT 50 99.9;
+BA_DEF_ BU_  "SSPOffsetCANFDMax" FLOAT 50 99.9;
+BA_DEF_ BU_  "TimeQuantaMin" INT 4 257;
+BA_DEF_ BU_  "TimeQuantaMax" INT 4 257;
+BA_DEF_ BU_  "TimeQuantaCANFDMin" INT 4 257;
+BA_DEF_ BU_  "TimeQuantaCANFDMax" INT 4 257;
+BA_DEF_  "GenNWMApBusSleep" STRING ;
+BA_DEF_  "GenNWMApCanNormal" STRING ;
+BA_DEF_  "GenNWMApCanOff" STRING ;
+BA_DEF_  "GenNWMApCanOn" STRING ;
+BA_DEF_  "GenNWMApCanSleep" STRING ;
+BA_DEF_  "GenNWMApCanWakeUp" STRING ;
+BA_DEF_  "GenNWMGotoMode_Awake" STRING ;
+BA_DEF_  "GenNWMGotoMode_BusSleep" STRING ;
+BA_DEF_  "GenNWMSleepTime" INT 0 1000000;
+BA_DEF_  "GenNWMTalkNM" STRING ;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "NmhBaseAddress" HEX 0 536870911;
+BA_DEF_  "NmhMessageCount" INT 0 1024;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "VAGTP20_SetupMessageCount" INT 0 255;
+BA_DEF_  "VAGTP20_SetupStartAddress" HEX 0 2047;
+BA_DEF_  "VersionDay" INT 1 31;
+BA_DEF_  "VersionMonth" INT 1 12;
+BA_DEF_  "VersionWeek" INT 1 52;
+BA_DEF_  "VersionYear" INT 0 99;
+BA_DEF_  "VersionNumber" INT 0 65535;
+BA_DEF_  "Baudrate" INT 1 1000000;
+BA_DEF_  "BaudrateCANFD" INT 1 16000000;
+BA_DEF_  "NmhTimeoutTimer" INT 0 65535;
+BA_DEF_  "NmhWaitBusSleepTimer" INT 0 65535;
+BA_DEF_  "NmhPrepareBusSleepTimer" INT 0 65535;
+BA_DEF_  "NmhLongTimer" INT 0 65535;
+BA_DEF_  "NmhNStart" INT 0 255;
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_  "DBName" STRING ;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "ProtocolType" STRING ;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 65535;
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "Cyclic";
+BA_DEF_DEF_  "GenSigActiveRepetitions" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "NWM-WakeupAllowed" "No";
+BA_DEF_DEF_  "GenSigFuncType" "NoFunction";
+BA_DEF_DEF_  "GenSigSwitchedByIgnition" "Yes";
+BA_DEF_DEF_  "Fehlerwert" 0;
+BA_DEF_DEF_  "GenSigMissingSourceValue" 0;
+BA_DEF_DEF_  "GenMsgSendType" "NoMsgSendType";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "GenMsgChkConstant" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgPDUConstants" "";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "NmhMessage" "No";
+BA_DEF_DEF_  "MsgType" "Application";
+BA_DEF_DEF_  "VAGTP20_API" 0;
+BA_DEF_DEF_  "VAGTP20_DynConnection" "No";
+BA_DEF_DEF_  "VAGTP20_DynSetup" "No";
+BA_DEF_DEF_  "VAGTP20_StatConnection" "No";
+BA_DEF_DEF_  "CANFD_BRS" "1";
+BA_DEF_DEF_  "E2EDataId" 1;
+BA_DEF_DEF_  "E2EDataLength" 0;
+BA_DEF_DEF_  "E2EProfile" "";
+BA_DEF_DEF_  "GenNodAutoGenDsp" "Yes";
+BA_DEF_DEF_  "GenNodAutoGenSnd" "Yes";
+BA_DEF_DEF_  "GenNodSleepTime" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "ECUVariantDefault" "Yes";
+BA_DEF_DEF_  "ECUVariantGroup" "";
+BA_DEF_DEF_  "VAGTP20_TargetAddress" 0;
+BA_DEF_DEF_  "NodeLayerModules" "";
+BA_DEF_DEF_  "NmhNode" "Yes";
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "SamplePointMin" 75;
+BA_DEF_DEF_  "SamplePointMax" 75;
+BA_DEF_DEF_  "SyncJumpWidthMin" 50;
+BA_DEF_DEF_  "SyncJumpWidthMax" 50;
+BA_DEF_DEF_  "SyncJumpWidthCANFDMin" 50;
+BA_DEF_DEF_  "SyncJumpWidthCANFDMax" 50;
+BA_DEF_DEF_  "SamplePointCANFDMin" 75;
+BA_DEF_DEF_  "SamplePointCANFDMax" 75;
+BA_DEF_DEF_  "SSPOffsetCANFDMin" 75;
+BA_DEF_DEF_  "SSPOffsetCANFDMax" 75;
+BA_DEF_DEF_  "TimeQuantaMin" 160;
+BA_DEF_DEF_  "TimeQuantaMax" 160;
+BA_DEF_DEF_  "TimeQuantaCANFDMin" 40;
+BA_DEF_DEF_  "TimeQuantaCANFDMax" 40;
+BA_DEF_DEF_  "GenNWMApBusSleep" "";
+BA_DEF_DEF_  "GenNWMApCanNormal" "";
+BA_DEF_DEF_  "GenNWMApCanOff" "";
+BA_DEF_DEF_  "GenNWMApCanOn" "";
+BA_DEF_DEF_  "GenNWMApCanSleep" "";
+BA_DEF_DEF_  "GenNWMApCanWakeUp" "";
+BA_DEF_DEF_  "GenNWMGotoMode_Awake" "";
+BA_DEF_DEF_  "GenNWMGotoMode_BusSleep" "";
+BA_DEF_DEF_  "GenNWMSleepTime" 0;
+BA_DEF_DEF_  "GenNWMTalkNM" "";
+BA_DEF_DEF_  "Manufacturer" "";
+BA_DEF_DEF_  "NmhBaseAddress" 0;
+BA_DEF_DEF_  "NmhMessageCount" 1;
+BA_DEF_DEF_  "NmType" "None";
+BA_DEF_DEF_  "VAGTP20_SetupMessageCount" 0;
+BA_DEF_DEF_  "VAGTP20_SetupStartAddress" 0;
+BA_DEF_DEF_  "VersionDay" 27;
+BA_DEF_DEF_  "VersionMonth" 4;
+BA_DEF_DEF_  "VersionWeek" 17;
+BA_DEF_DEF_  "VersionYear" 18;
+BA_DEF_DEF_  "VersionNumber" 0;
+BA_DEF_DEF_  "Baudrate" 500000;
+BA_DEF_DEF_  "BaudrateCANFD" 2000000;
+BA_DEF_DEF_  "NmhTimeoutTimer" 0;
+BA_DEF_DEF_  "NmhWaitBusSleepTimer" 0;
+BA_DEF_DEF_  "NmhPrepareBusSleepTimer" 0;
+BA_DEF_DEF_  "NmhLongTimer" 0;
+BA_DEF_DEF_  "NmhNStart" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "VFrameFormat" "";
+BA_DEF_DEF_  "DBName" "";
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
+BA_ "DBName" "CustomName";
+BA_ "GenMsgSendType" BO_ 257 0;
+BA_ "GenMsgCycleTime" BO_ 257 40;
+BA_ "VFrameFormat" BO_ 257 14;
+BA_ "GenMsgSendType" BO_ 1152 0;
+BA_ "GenMsgCycleTime" BO_ 1152 30;
+BA_ "VFrameFormat" BO_ 1152 14;
+BA_ "GenMsgSendType" BO_ 1153 0;
+BA_ "GenMsgCycleTime" BO_ 1153 30;
+BA_ "VFrameFormat" BO_ 1153 14;
+BA_ "GenMsgSendType" BO_ 1154 0;
+BA_ "GenMsgCycleTime" BO_ 1154 30;
+BA_ "VFrameFormat" BO_ 1154 14;
+BA_ "GenMsgSendType" BO_ 1155 0;
+BA_ "GenMsgCycleTime" BO_ 1155 30;
+BA_ "VFrameFormat" BO_ 1155 14;
+BA_ "GenMsgSendType" BO_ 1124 0;
+BA_ "GenMsgCycleTime" BO_ 1124 30;
+BA_ "VFrameFormat" BO_ 1124 14;
+BA_ "GenMsgSendType" BO_ 1104 0;
+BA_ "GenMsgCycleTime" BO_ 1104 30;
+BA_ "VFrameFormat" BO_ 1104 14;
+BA_ "GenMsgSendType" BO_ 1105 0;
+BA_ "GenMsgCycleTime" BO_ 1105 30;
+BA_ "VFrameFormat" BO_ 1105 14;
+BA_ "GenMsgSendType" BO_ 1106 0;
+BA_ "GenMsgCycleTime" BO_ 1106 30;
+BA_ "VFrameFormat" BO_ 1106 14;
+BA_ "GenMsgSendType" BO_ 1107 0;
+BA_ "GenMsgCycleTime" BO_ 1107 30;
+BA_ "VFrameFormat" BO_ 1107 14;
+BA_ "GenMsgSendType" BO_ 1108 0;
+BA_ "GenMsgCycleTime" BO_ 1108 30;
+BA_ "VFrameFormat" BO_ 1108 14;
+BA_ "GenMsgSendType" BO_ 1109 0;
+BA_ "GenMsgCycleTime" BO_ 1109 30;
+BA_ "VFrameFormat" BO_ 1109 14;
+BA_ "GenMsgSendType" BO_ 1110 0;
+BA_ "GenMsgCycleTime" BO_ 1110 30;
+BA_ "VFrameFormat" BO_ 1110 14;
+BA_ "GenMsgSendType" BO_ 1111 0;
+BA_ "GenMsgCycleTime" BO_ 1111 30;
+BA_ "VFrameFormat" BO_ 1111 14;
+BA_ "GenMsgSendType" BO_ 1112 0;
+BA_ "GenMsgCycleTime" BO_ 1112 30;
+BA_ "VFrameFormat" BO_ 1112 14;
+BA_ "GenMsgSendType" BO_ 1113 0;
+BA_ "GenMsgCycleTime" BO_ 1113 30;
+BA_ "VFrameFormat" BO_ 1113 14;
+BA_ "GenMsgSendType" BO_ 1114 0;
+BA_ "GenMsgCycleTime" BO_ 1114 30;
+BA_ "VFrameFormat" BO_ 1114 14;
+BA_ "GenMsgSendType" BO_ 1115 0;
+BA_ "GenMsgCycleTime" BO_ 1115 30;
+BA_ "VFrameFormat" BO_ 1115 14;
+BA_ "GenMsgSendType" BO_ 1116 0;
+BA_ "GenMsgCycleTime" BO_ 1116 30;
+BA_ "VFrameFormat" BO_ 1116 14;
+BA_ "GenMsgSendType" BO_ 1117 0;
+BA_ "GenMsgCycleTime" BO_ 1117 30;
+BA_ "VFrameFormat" BO_ 1117 14;
+BA_ "GenMsgSendType" BO_ 1118 0;
+BA_ "GenMsgCycleTime" BO_ 1118 30;
+BA_ "VFrameFormat" BO_ 1118 14;
+BA_ "GenMsgSendType" BO_ 1119 0;
+BA_ "GenMsgCycleTime" BO_ 1119 30;
+BA_ "VFrameFormat" BO_ 1119 14;
+BA_ "GenMsgSendType" BO_ 1120 0;
+BA_ "GenMsgCycleTime" BO_ 1120 30;
+BA_ "VFrameFormat" BO_ 1120 14;
+BA_ "GenMsgSendType" BO_ 1121 0;
+BA_ "GenMsgCycleTime" BO_ 1121 30;
+BA_ "VFrameFormat" BO_ 1121 14;
+BA_ "GenMsgSendType" BO_ 1122 0;
+BA_ "GenMsgCycleTime" BO_ 1122 30;
+BA_ "VFrameFormat" BO_ 1122 14;
+BA_ "GenMsgSendType" BO_ 1123 0;
+BA_ "GenMsgCycleTime" BO_ 1123 30;
+BA_ "VFrameFormat" BO_ 1123 14;
+BA_ "GenMsgSendType" BO_ 1136 0;
+BA_ "GenMsgCycleTime" BO_ 1136 30;
+BA_ "VFrameFormat" BO_ 1136 14;
+BA_ "GenMsgSendType" BO_ 1137 0;
+BA_ "GenMsgCycleTime" BO_ 1137 30;
+BA_ "VFrameFormat" BO_ 1137 14;
+BA_ "GenMsgSendType" BO_ 1138 0;
+BA_ "GenMsgCycleTime" BO_ 1138 30;
+BA_ "VFrameFormat" BO_ 1138 14;
+BA_ "GenMsgSendType" BO_ 1168 0;
+BA_ "GenMsgCycleTime" BO_ 1168 30;
+BA_ "VFrameFormat" BO_ 1168 14;
+BA_ "GenMsgSendType" BO_ 1172 0;
+BA_ "GenMsgCycleTime" BO_ 1172 30;
+BA_ "VFrameFormat" BO_ 1172 14;
+BA_ "GenMsgSendType" BO_ 1173 0;
+BA_ "GenMsgCycleTime" BO_ 1173 30;
+BA_ "VFrameFormat" BO_ 1173 14;
+BA_ "GenMsgSendType" BO_ 1139 0;
+BA_ "GenMsgCycleTime" BO_ 1139 30;
+BA_ "VFrameFormat" BO_ 1139 14;
+VAL_ 257 ADCM_SyncMsgType 32 " SYNC CRC secured message format" 40 " FUP CRC secured message format" ;
+VAL_ 1172 FC_TSRHostSpdLimitUnits 0 "no display" 1 "unit kph" 2 "unit mph" 3 "reserved" ;
+VAL_ 1172 FC_TSRMandatorySign 0 "no display" 1 "单行路直行" 2 "步行" 3 "人行横道" 4 "公交线路专用车道" 0 "reserved" ;
+VAL_ 1172 FC_TSRProhibitionSign 0 "no display" 1 "禁止驶入" 2 "禁止机动车驶入" 3 "禁止向左转弯" 4 "禁止向右转弯" 5 "禁止掉头" 6 "禁止超车" 7 "解除禁止超车" 8 "禁止鸣喇叭" 9 "停车让行" 0 "reserved" ;
+VAL_ 1172 FC_TSRWarningSign 0 "no display" 1 "注意行人" 2 "注意儿童" 3 "注意易滑路段" 4 "注意施工" 5 "注意十字路口" 6 "注意上坡" 7 "注意下坡" 8 "注意右方落石" 9 "注意信号灯" 10 "注意横风(警告)" 11 "注意危险" 0 "reserved" ;
+

@@ -1,0 +1,257 @@
+VERSION ""
+
+
+NS_ :
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: FrCamera VIUL PDCU IBC EPS ASC
+
+
+BO_ 131 EMS1: 8 VIUL
+ SG_ EMS_EngSpdValid : 52|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ EMS_EngSpd : 7|16@0+ (0.125,0) [0|8191.875] "rpm" FrCamera
+
+BO_ 800 IC1: 8 VIUL
+ SG_ IC_TotalOdmeter : 3|20@0+ (1,0) [0|999999] "km" FrCamera
+ SG_ RollingCounter320 : 51|4@0+ (1,0) [0|15] "_" FrCamera
+ SG_ CheckSum320 : 63|8@0+ (1,0) [0|255] "_" FrCamera
+
+BO_ 1043 MP5_8: 8 VIUL
+ SG_ MP5_ISASwitch : 4|2@0+ (1,0) [0|3] "_" FrCamera
+ SG_ MP5_TSRSwitch : 2|2@0+ (1,0) [0|3] "_" FrCamera
+ SG_ MP5_ISAMode : 11|2@0+ (1,0) [0|3] "_" FrCamera
+ SG_ MP5_ADASSpeedLimit : 28|5@0+ (1,0) [0|31] "km/h" FrCamera
+
+BO_ 1242 TBOX_Time: 8 VIUL
+ SG_ TBOX_Time_Year : 47|8@0+ (1,2000) [2000|2254] "year" FrCamera
+ SG_ TBOX_Time_Month : 7|4@0+ (1,0) [1|12] "month" FrCamera
+ SG_ TBOX_Time_Date : 12|5@0+ (1,0) [1|31] "day" FrCamera
+ SG_ TBOX_Time_Hour : 20|5@0+ (1,0) [0|23] "hour" FrCamera
+ SG_ TBOX_Time_Minute : 29|6@0+ (1,0) [0|59] "minute" FrCamera
+ SG_ TBOX_Time_Second : 37|6@0+ (1,0) [0|59] "second" FrCamera
+ SG_ TBOX_Time_Valid : 15|1@0+ (1,0) [0|1] "_" FrCamera
+
+BO_ 778 TBOX_OTAInfo: 8 VIUL
+ SG_ Tbox_OTAModeStatus : 3|4@0+ (1,0) [0|15] "_" FrCamera
+ SG_ OTA_EstimatedUpgradeTime : 14|7@0+ (1,0) [0|120] "minute" FrCamera
+ SG_ RollingCounter30A : 51|4@0+ (1,0) [0|15] "" FrCamera
+ SG_ Checksum30A : 63|8@0+ (1,0) [0|255] "" FrCamera
+
+BO_ 290 ACU_YRS: 8 VIUL
+ SG_ ACU_YawRate : 7|16@0+ (0.01,-81.91) [-81.91|81.91] "°/s" FrCamera
+ SG_ ACU_YawrateValidity : 23|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ ACU_LateralAccelaration : 19|12@0+ (0.01,-12.45) [-12.45|12.45] "m/s2" FrCamera
+ SG_ ACU_LateralAccelarationValidity : 22|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ ACU_LongitudinalAccelerationValidity : 47|1@0+ (1,0) [0|1] "_" FrCamera
+ SG_ ACU_LongitudinalAcceleration : 46|11@0+ (0.03,-15.36) [-15.36|15.36] "m/s2" FrCamera
+ SG_ RollingCounter122 : 51|4@0+ (1,0) [0|15] "_" FrCamera
+ SG_ CheckSum122 : 63|8@0+ (1,0) [0|255] "_" FrCamera
+
+BO_ 570 IBCM2_23A_C: 8 VIUL
+ SG_ BCM_HazardLampSt : 6|1@0+ (1,0) [0|1] "_" FrCamera
+ SG_ BCM_HighBeamStatus : 7|1@0+ (1,0) [0|1] "_" FrCamera
+ SG_ BCM_LeftTurnSwitchSt : 21|2@0+ (1,0) [0|3] "_" FrCamera
+ SG_ BCM_RightTurnSwitchrSt : 23|2@0+ (1,0) [0|3] "_" FrCamera
+ SG_ BCM_FrontWiperWorkSt : 41|2@0+ (1,0) [0|3] "_" FrCamera
+
+BO_ 828 IBCM3_33C_C: 8 VIUL
+ SG_ BCM_IgnitionSt : 1|2@0+ (1,0) [0|3] "_" FrCamera
+
+BO_ 829 IBCM5: 8 VIUL
+ SG_ BCM_IHBC_Function_Enabled : 8|1@0+ (1,0) [0|1] "_" FrCamera
+
+BO_ 833 EBS_341: 8 PDCU
+ SG_ EBS_BattVolt : 7|10@0+ (0.05,0) [0|28] "V" FrCamera
+
+BO_ 254 PDCU_FE_CAN: 8 PDCU
+ SG_ PDCU_BMS_SOCCalculate : 39|8@0+ (1,0) [0|100] "%" FrCamera
+ SG_ RollingCounterFE : 51|4@0+ (1,0) [0|15] "_" FrCamera
+ SG_ ChecksumFE : 63|8@0+ (1,0) [0|255] "_" FrCamera
+
+BO_ 283 PDCU2: 8 PDCU
+ SG_ PDCU_ShiftLvlPosnValid : 24|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ PDCU_TargetShiftLvlPosnValid : 25|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ PDCU_DriverAccrPedPosnValid : 26|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ PDCU_DriveReady : 27|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ PDCU_ShiftLvlPosn : 35|4@0+ (1,0) [0|10] "" FrCamera
+ SG_ PDCU_TargetShiftLvlPosn : 39|4@0+ (1,0) [0|10] "" FrCamera
+ SG_ PDCU_DriverAccrPedPosn : 47|8@0+ (1,0) [0|100] "%" FrCamera
+
+BO_ 258 IBC6: 8 IBC
+ SG_ IBC_ACC_Active : 0|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_ACC_Available : 1|1@0+ (1,0) [0|1] "" FrCamera
+
+BO_ 162 IBC7: 8 IBC
+ SG_ IBC_vehicleSpeed : 7|13@0+ (0.05625,0) [0|270] "km/h" FrCamera
+ SG_ IBC_vehicleSpeedValid : 10|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_absFault : 9|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_absActive : 8|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_vdcActive : 16|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_tcsActive : 17|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_VehicleDrivingDirection : 25|2@0+ (1,0) [0|3] "" FrCamera
+ SG_ RollingCounter0A2 : 51|4@0+ (1,0) [0|15] "" FrCamera
+ SG_ Checksum0A2 : 63|8@0+ (1,0) [0|255] "" FrCamera
+
+BO_ 532 IBC12: 8 IBC
+ SG_ IBC_brakePedalStatus : 2|2@0+ (1,0) [0|3] "" FrCamera
+
+BO_ 534 IBC13: 8 IBC
+ SG_ IBC_SimulatorPressure : 7|12@0+ (0.3,-5) [-5|301.9] "bar" FrCamera
+ SG_ IBC_PlungerPressure : 11|12@0+ (0.3,-5) [-5|301.9] "bar" FrCamera
+ SG_ IBC_PlungerPressureStatus : 31|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_PedalTravelSensorStatus : 44|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ IBC_PedalTravelSensor : 43|8@0+ (1,0) [0|100] "%" FrCamera
+
+BO_ 324 EPS_SAS_144: 8 EPS
+ SG_ EPS_SAS_SteeringAngle : 7|16@0- (0.1,0) [-780|779.9] "deg" FrCamera
+ SG_ EPS_SAS_Failure : 52|1@0+ (1,0) [0|1] "" FrCamera
+ SG_ EPS_SAS_RollingCount : 51|4@0+ (1,0) [0|15] "" FrCamera
+ SG_ EPS_SAS_CheckSum : 63|8@0+ (1,0) [0|255] "" FrCamera
+
+BO_ 292 ASC2: 8 ASC
+ SG_ ASC_CurrentLevel : 3|4@0+ (1,0) [0|15] "" FrCamera
+
+
+
+CM_ SG_ 131 EMS_EngSpdValid "发动机转速有效位";
+CM_ SG_ 131 EMS_EngSpd "发动机转速";
+CM_ SG_ 800 IC_TotalOdmeter "总里程";
+CM_ SG_ 800 RollingCounter320 "滚动计数器320";
+CM_ SG_ 800 CheckSum320 "校验值320";
+CM_ SG_ 1043 MP5_ISASwitch "智能限速辅助开关";
+CM_ SG_ 1043 MP5_TSRSwitch "交通标志识别开关";
+CM_ SG_ 1043 MP5_ISAMode "ISA/ISLC模式选择";
+CM_ SG_ 1043 MP5_ADASSpeedLimit "导航当前电子眼限速值";
+CM_ SG_ 1242 TBOX_Time_Year "时间年";
+CM_ SG_ 1242 TBOX_Time_Month "时间月";
+CM_ SG_ 1242 TBOX_Time_Date "时间日";
+CM_ SG_ 1242 TBOX_Time_Hour "时间时（按照24小时制发送）";
+CM_ SG_ 1242 TBOX_Time_Minute "时间分";
+CM_ SG_ 1242 TBOX_Time_Second "时间秒";
+CM_ SG_ 1242 TBOX_Time_Valid "时间有效位";
+CM_ SG_ 778 Tbox_OTAModeStatus "OTA模式信号";
+CM_ SG_ 778 OTA_EstimatedUpgradeTime "OTA预计升级时间";
+CM_ SG_ 778 RollingCounter30A "滚动计数器30A";
+CM_ SG_ 778 Checksum30A "校验值30A";
+CM_ SG_ 290 ACU_YawRate "横摆角速度";
+CM_ SG_ 290 ACU_YawrateValidity "横摆角速度有效性";
+CM_ SG_ 290 ACU_LateralAccelaration "横向加速度信号";
+CM_ SG_ 290 ACU_LateralAccelarationValidity "横向加速度有效性";
+CM_ SG_ 290 ACU_LongitudinalAccelerationValidity "纵向加速度标识";
+CM_ SG_ 290 ACU_LongitudinalAcceleration "纵向加速度";
+CM_ SG_ 290 RollingCounter122 "滚动计数器122";
+CM_ SG_ 290 CheckSum122 "校验值122";
+CM_ SG_ 570 BCM_HazardLampSt "危险报警灯状态信号";
+CM_ SG_ 570 BCM_HighBeamStatus "远光灯状态";
+CM_ SG_ 570 BCM_LeftTurnSwitchSt "左转向开关状态";
+CM_ SG_ 570 BCM_RightTurnSwitchrSt "右转向开关状态";
+CM_ SG_ 570 BCM_FrontWiperWorkSt "前雨刮工作模式";
+CM_ SG_ 828 BCM_IgnitionSt "点火开关信号";
+CM_ SG_ 829 BCM_IHBC_Function_Enabled "IHBC功能使能信号";
+CM_ SG_ 833 EBS_BattVolt "蓄电池电压";
+CM_ SG_ 254 PDCU_BMS_SOCCalculate "电池计算SOC";
+CM_ SG_ 254 RollingCounterFE "滚动计数器FE";
+CM_ SG_ 254 ChecksumFE "校验值FE";
+CM_ SG_ 283 PDCU_ShiftLvlPosnValid "实际档位有效标志位";
+CM_ SG_ 283 PDCU_TargetShiftLvlPosnValid "目标档位有效标志位";
+CM_ SG_ 283 PDCU_DriverAccrPedPosnValid "驾驶员加速踏板行程有效标志位";
+CM_ SG_ 283 PDCU_DriveReady "行车准备就绪指示Ready";
+CM_ SG_ 283 PDCU_ShiftLvlPosn "实际档位位置";
+CM_ SG_ 283 PDCU_TargetShiftLvlPosn "目标档位位置";
+CM_ SG_ 283 PDCU_DriverAccrPedPosn "驾驶员加速踏板行程";
+CM_ SG_ 258 IBC_ACC_Active "ACC功能是否激活";
+CM_ SG_ 258 IBC_ACC_Available "ACC功能是否有效";
+CM_ SG_ 162 IBC_vehicleSpeed "车速";
+CM_ SG_ 162 IBC_vehicleSpeedValid "车速有效位";
+CM_ SG_ 162 IBC_absFault "ABS功能是否故障";
+CM_ SG_ 162 IBC_absActive "ABS功能是否激活";
+CM_ SG_ 162 IBC_vdcActive "VDC/ESC功能是否激活";
+CM_ SG_ 162 IBC_tcsActive "TCS功能是否激活";
+CM_ SG_ 162 IBC_VehicleDrivingDirection "车辆行驶方向";
+CM_ SG_ 162 RollingCounter0A2 "滚动计数器A2";
+CM_ SG_ 162 Checksum0A2 "校验值A2";
+CM_ SG_ 532 IBC_brakePedalStatus "制动踏板状态";
+CM_ SG_ 534 IBC_SimulatorPressure "踏板模拟器端压力";
+CM_ SG_ 534 IBC_PlungerPressure "活塞端压力（DAP腔压力）";
+CM_ SG_ 534 IBC_PlungerPressureStatus "活塞端压力状态";
+CM_ SG_ 534 IBC_PedalTravelSensorStatus "制动踏板行程状态";
+CM_ SG_ 534 IBC_PedalTravelSensor "制动踏板行程";
+CM_ SG_ 324 EPS_SAS_SteeringAngle "转向角信号";
+CM_ SG_ 324 EPS_SAS_Failure "SAS故障状态";
+CM_ SG_ 324 EPS_SAS_RollingCount "滚动计数器144";
+CM_ SG_ 324 EPS_SAS_CheckSum "校验值144";
+CM_ SG_ 292 ASC_CurrentLevel "当前车身高度等级
+Current Height Level";
+BA_DEF_ BU_  "NmStationAddress" INT 0 255;
+BA_DEF_ BO_  "VFrameFormat" ENUM  "StandardCAN","ExtendedCAN","J1939PG","reserved";
+BA_DEF_  "DBName" STRING;
+BA_DEF_  "BusType" STRING;
+BA_DEF_  "ProtocolType" STRING;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "ProtocolType" "J1939";
+BA_ "DBName" "CustomName";
+
+VAL_ 131 EMS_EngSpdValid 0 " Invalid" 1 " Valid";
+VAL_ 1043 MP5_ISASwitch 0 "ISA OFF" 1 " ISA ON" 2 "Reserved" 3 " Reserved";
+VAL_ 1043 MP5_TSRSwitch 0 "TSR OFF" 1 " TSR ON" 2 " Reserved" 3 " Reserved";
+VAL_ 1043 MP5_ISAMode 0 " Reserved" 1 " ISA" 2 " ISLC" 3 " Reserved";
+VAL_ 1043 MP5_ADASSpeedLimit 0 " unknown(including variable speed sign controlled)" 1 " value ≤5" 2 " 5< value ≤7" 3 " 7< value ≤10" 4 " 10< value ≤15" 5 " 15< value ≤20" 6 " 20< value ≤25" 7 " 25< value ≤30" 8 " 30< value ≤35" 9 " 35< value ≤40" 16 " 40< value ≤45" 17 " 45< value ≤50" 18 " 50< value ≤55" 19 " 55< value ≤60" 20 " 60< value ≤65" 21 " 65< value ≤70" 22 " 70< value ≤75" 23 " 75< value ≤80" 24 " 80< value ≤85" 25 " 85< value ≤90" 32 " 90< value ≤95" 33 " 95< value ≤100" 34 "100< value ≤105" 35 " 105< value ≤110" 36 " 110< value ≤115" 37 " 115< value ≤120" 38 " 120< value ≤130" 39 " 130< value ≤140" 40 " 140< value ≤150" 41 " 150< value ≤unlimited" 48 " Unlimited" 49 " N/A";
+VAL_ 1242 TBOX_Time_Valid 0 "Valid                            " 1 "Not Valid ";
+VAL_ 290 ACU_YawrateValidity 0 "有效" 1 "无效";
+VAL_ 290 ACU_LateralAccelarationValidity 0 "有效" 1 "无效";
+VAL_ 290 ACU_LongitudinalAccelerationValidity 0 "有效" 1 "无效";
+VAL_ 570 BCM_HazardLampSt 0 " 不工作" 1 " 工作";
+VAL_ 570 BCM_HighBeamStatus 0 " 灭" 1 " 亮";
+VAL_ 570 BCM_LeftTurnSwitchSt 0 "OFF" 1 "ON" 2 "错误" 3 "无效";
+VAL_ 570 BCM_RightTurnSwitchrSt 0 "OFF" 1 "ON" 2 "错误" 3 "无效";
+VAL_ 570 BCM_FrontWiperWorkSt 0 "前雨刮不工作" 1 "前雨刮间歇工作模式" 2 "前雨刮低速工作模式" 3 "前雨刮高速工作模式";
+VAL_ 828 BCM_IgnitionSt 0 "OFF" 1 "ACC" 2 "ON" 3 "START";
+VAL_ 829 BCM_IHBC_Function_Enabled 0 "disenabled不使能" 1 "enabled使能";
+VAL_ 283 PDCU_ShiftLvlPosnValid 0 " INVALID" 1 " VALID";
+VAL_ 283 PDCU_TargetShiftLvlPosnValid 0 " INVALID" 1 " VALID";
+VAL_ 283 PDCU_DriverAccrPedPosnValid 0 " INVALID" 1 " VALID";
+VAL_ 283 PDCU_DriveReady 0 " 不允许行车 Not permit to drive " 1 " 允许行车 Permit to drive";
+VAL_ 283 PDCU_ShiftLvlPosn 0 "Neutral" 1 "D" 2 "预留" 3 "预留Reserved" 4 "预留" 5 "Park" 6 "预留Reserved" 7 "Reverse" 8 "预留Reserved" 9 "预留Reserved" 16 "预留Reserved";
+VAL_ 283 PDCU_TargetShiftLvlPosn 0 "Neutral" 1 "D1" 2 "D2" 3 "预留Reserved" 4 "预留Reserved" 5 "Park" 6 "预留Reserved" 7 "Reverse" 8 "预留Reserved" 9 "预留Reserved" 16 "预留Reserved";
+VAL_ 258 IBC_ACC_Active 0 " INACTIVE" 1 " ACTIVE";
+VAL_ 258 IBC_ACC_Available 0 " NOT_AVAILABLE" 1 " AVAILABLE";
+VAL_ 162 IBC_vehicleSpeedValid 0 " INVALID" 1 " VALID";
+VAL_ 162 IBC_absFault 0 " NORMAL" 1 " FAULT";
+VAL_ 162 IBC_absActive 0 " INACTIVE" 1 " ACTIVE";
+VAL_ 162 IBC_vdcActive 0 " INACTIVE" 1 " ACTIVE";
+VAL_ 162 IBC_tcsActive 0 " INACTIVE" 1 " ACTIVE";
+VAL_ 162 IBC_VehicleDrivingDirection 0 "Undefined（standstill）" 1 "Front toward" 2 "Rear toward" 3 "Invalid";
+VAL_ 532 IBC_brakePedalStatus 0 " NOT_PRESSED_INIT_DEFAULT" 1 " PRESSED" 2 " RESERVED" 3 " ERROR";
+VAL_ 534 IBC_PlungerPressureStatus 0 " Invalid_default" 1 " valid_init";
+VAL_ 534 IBC_PedalTravelSensorStatus 0 " Invalid_default" 1 " valid_init";
+VAL_ 324 EPS_SAS_Failure 0 " NORMAL" 1 " FAULT";
+VAL_ 292 ASC_CurrentLevel 0 " Invalid" 1 " Off road height level" 2 " Between Off road height and R2 height level " 3 "R2 height level" 4 " Between R2 height and R1 height level " 5 " R1 height level" 6 " Between R1 height and Normal height level " 7 " Normal height level" 8 " Between Normal height and Aero height level " 9 " Aero height level" 16 " Between Aero height and Entry height level " 17 " Entry height level" 0 " Reserved";
